@@ -643,18 +643,18 @@ textarea {
 }
 
 /* === Typography Settings =============================== */
-/* line 15, ../scss/_globals.scss */
+/* line 14, ../scss/_globals.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 19, ../scss/_globals.scss */
+/* line 18, ../scss/_globals.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
-/* line 24, ../scss/_globals.scss */
+/* line 23, ../scss/_globals.scss */
 p {
   margin-bottom: 20px;
 }
