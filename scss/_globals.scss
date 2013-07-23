@@ -2,7 +2,15 @@
 // Open Sans 400, 400 italic
 
 
-/* === General Typography Settings =============================== */
+/* === Sitewide Globals =============================== */
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+/* === Typography Settings =============================== */
 
 body {
 	font-family: 'Open Sans', sans-serif;

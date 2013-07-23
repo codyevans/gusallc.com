@@ -1,6 +1,18 @@
 
+
+// compass
+@import "compass/css3";
+
+// variables and reset
 @import "bits";
 @import "normalize";
+
+// global settings
 @import "globals";
-@import "header";
+
+// header
+@import "header/header";
+@import "header/nav";
+
+// print
 @import "print";

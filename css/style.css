@@ -549,10 +549,6 @@ table {
 }
 
 /*
-* End Normalize styles
-* Start HTML5 Boilerplate styles
-*/
-/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -562,7 +558,7 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 550, ../scss/_normalize.scss */
+/* line 548, ../scss/_normalize.scss */
 html,
 button,
 input,
@@ -571,7 +567,7 @@ textarea {
   color: #222;
 }
 
-/* line 554, ../scss/_normalize.scss */
+/* line 552, ../scss/_normalize.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
@@ -582,16 +578,16 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 565, ../scss/_normalize.scss */
+/* line 563, ../scss/_normalize.scss */
 ::-moz-selection {
-  background: #b40c00;
+  background: #c90000;
   color: white;
   text-shadow: none;
 }
 
-/* line 571, ../scss/_normalize.scss */
+/* line 569, ../scss/_normalize.scss */
 ::selection {
-  background: #b40c00;
+  background: #c90000;
   color: white;
   text-shadow: none;
 }
@@ -599,7 +595,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 581, ../scss/_normalize.scss */
+/* line 579, ../scss/_normalize.scss */
 hr {
   display: block;
   height: 1px;
@@ -613,7 +609,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 598, ../scss/_normalize.scss */
+/* line 596, ../scss/_normalize.scss */
 audio,
 canvas,
 img,
@@ -624,7 +620,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 606, ../scss/_normalize.scss */
+/* line 604, ../scss/_normalize.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -634,24 +630,31 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 616, ../scss/_normalize.scss */
+/* line 614, ../scss/_normalize.scss */
 textarea {
   resize: vertical;
 }
 
-/* === General Typography Settings =============================== */
+/* === Sitewide Globals =============================== */
 /* line 7, ../scss/_globals.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* === Typography Settings =============================== */
+/* line 15, ../scss/_globals.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 11, ../scss/_globals.scss */
+/* line 19, ../scss/_globals.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
-/* line 16, ../scss/_globals.scss */
+/* line 24, ../scss/_globals.scss */
 p {
   margin-bottom: 20px;
 }
