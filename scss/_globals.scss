@@ -1,3 +1,4 @@
+// FONTS USED
 // Montserrat 400, 700
 // Open Sans 400, 400 italic
 
@@ -7,19 +8,21 @@
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
+
+body {
+	background: #fff;
+}
+
 
 /* === Typography Settings =============================== */
 
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }

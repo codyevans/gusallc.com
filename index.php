@@ -20,7 +20,7 @@
     </head>
     <body>
 
-        <h1>Hello World</h1>
+        <h1>Garnet USA</h1>
 
         <p>Hello World</p>
 

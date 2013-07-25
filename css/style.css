@@ -81,7 +81,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /**
@@ -636,27 +636,28 @@ textarea {
 }
 
 /* === Sitewide Globals =============================== */
-/* line 7, ../scss/_globals.scss */
+/* line 8, ../scss/_globals.scss */
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 14, ../scss/_globals.scss */
+body {
+  background: #fff;
 }
 
 /* === Typography Settings =============================== */
-/* line 14, ../scss/_globals.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* line 18, ../scss/_globals.scss */
+/* line 21, ../scss/_globals.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
-/* line 23, ../scss/_globals.scss */
+/* line 26, ../scss/_globals.scss */
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* ==========================================================================
