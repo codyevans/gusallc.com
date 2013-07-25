@@ -1,0 +1,29 @@
+
+// Terms warning - basic styles
+.terms-warning {
+	width: 100%;
+	position: absolute;
+	background: $red;
+	color: $white;
+	text-align: center;
+	padding: 20px 20px;
+
+	@include translate(0, -100px);
+	@include transition(all 0.3s ease);
+
+	p {
+		letter-spacing: 2px;
+	}
+}
+
+// no js
+.no-js .terms-warning {
+	@include translate(0,0);
+}
+
+// load animation
+.warning-on {
+	@include translate(0,0);
+}
+
+

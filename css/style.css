@@ -580,14 +580,14 @@ body {
  */
 /* line 563, ../scss/_normalize.scss */
 ::-moz-selection {
-  background: #c90000;
+  background: #b71b1e;
   color: white;
   text-shadow: none;
 }
 
 /* line 569, ../scss/_normalize.scss */
 ::selection {
-  background: #c90000;
+  background: #b71b1e;
   color: white;
   text-shadow: none;
 }
@@ -645,7 +645,7 @@ textarea {
 
 /* line 14, ../scss/_globals.scss */
 body {
-  background: #fff;
+  background: white;
 }
 
 /* === Typography Settings =============================== */
@@ -658,6 +658,47 @@ h1, h2, h3, h4, h5, h6 {
 /* line 26, ../scss/_globals.scss */
 p {
   margin-bottom: 10px;
+}
+
+/* line 3, ../scss/pages/_terms-conditions.scss */
+.terms-warning {
+  width: 100%;
+  position: absolute;
+  background: #b71b1e;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  -webkit-transform: translate(0, -100px);
+  -moz-transform: translate(0, -100px);
+  -ms-transform: translate(0, -100px);
+  -o-transform: translate(0, -100px);
+  transform: translate(0, -100px);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 14, ../scss/pages/_terms-conditions.scss */
+.terms-warning p {
+  letter-spacing: 2px;
+}
+
+/* line 20, ../scss/pages/_terms-conditions.scss */
+.no-js .terms-warning {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* line 25, ../scss/pages/_terms-conditions.scss */
+.warning-on {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 /* ==========================================================================
