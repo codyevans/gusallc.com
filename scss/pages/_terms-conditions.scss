@@ -7,9 +7,10 @@
 	color: $white;
 	text-align: center;
 	padding: 20px 20px;
+	opacity: 0;
 
 	@include translate(0, -100px);
-	@include transition(all 0.3s ease);
+	@include transition(opacity 0.3s, transform 0.3s);
 
 	p {
 		letter-spacing: 2px;
@@ -23,6 +24,7 @@
 
 // load animation
 .warning-on {
+	opacity: 1;
 	@include translate(0,0);
 }
 

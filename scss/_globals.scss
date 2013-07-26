@@ -8,11 +8,13 @@
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
 	background: $white;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
+	height: 100%;
 }
 
 

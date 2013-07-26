@@ -1,3 +1,11 @@
+/* line 27, ../scss/_bits.scss */
+.gpu {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
 /* normalize.css v1.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -640,22 +648,24 @@ textarea {
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 14, ../scss/_globals.scss */
+/* line 13, ../scss/_globals.scss */
 body {
   background: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  height: 100%;
 }
 
 /* === Typography Settings =============================== */
-/* line 21, ../scss/_globals.scss */
+/* line 23, ../scss/_globals.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
-/* line 26, ../scss/_globals.scss */
+/* line 28, ../scss/_globals.scss */
 p {
   margin-bottom: 10px;
 }
@@ -668,22 +678,23 @@ p {
   color: white;
   text-align: center;
   padding: 20px 20px;
+  opacity: 0;
   -webkit-transform: translate(0, -100px);
   -moz-transform: translate(0, -100px);
   -ms-transform: translate(0, -100px);
   -o-transform: translate(0, -100px);
   transform: translate(0, -100px);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  -o-transition: opacity 0.3s, -o-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
 }
-/* line 14, ../scss/pages/_terms-conditions.scss */
+/* line 15, ../scss/pages/_terms-conditions.scss */
 .terms-warning p {
   letter-spacing: 2px;
 }
 
-/* line 20, ../scss/pages/_terms-conditions.scss */
+/* line 21, ../scss/pages/_terms-conditions.scss */
 .no-js .terms-warning {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
@@ -692,8 +703,9 @@ p {
   transform: translate(0, 0);
 }
 
-/* line 25, ../scss/pages/_terms-conditions.scss */
+/* line 26, ../scss/pages/_terms-conditions.scss */
 .warning-on {
+  opacity: 1;
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
