@@ -26,6 +26,8 @@
             </p>
         </div>
 
+        <span class="logo-icon" data-icon="L" aria-hidden="true"></span
+
        
     
 
