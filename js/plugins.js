@@ -427,12 +427,3 @@
 
 // Place any jQuery plugins here.
 
-
-
-
-
-
-
-
-
-

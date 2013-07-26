@@ -663,7 +663,7 @@ p {
 /* line 3, ../scss/pages/_terms-conditions.scss */
 .terms-warning {
   width: 100%;
-  position: absolute;
+  position: relative;
   background: #b71b1e;
   color: white;
   text-align: center;
