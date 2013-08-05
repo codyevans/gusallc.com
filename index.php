@@ -20,15 +20,9 @@
     </head>
     <body>
 
-        <div class="terms-warning" id="terms-warning">
-            <p>
-                Please agree to our Terms and Conditions below to continue.
-            </p>
-        </div>
+        
 
-        <span class="logo-icon" data-icon="L" aria-hidden="true"></span
 
-       
     
 
 
