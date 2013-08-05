@@ -7,19 +7,20 @@
 // colors
 $red: #b71b1e;
 $white: #FFFFFF;
-$grey: #D4D4D4;
+$grey: #f4f4f4;
+$dark-grey: #8F8F8F;
 
 
 // breakpoints
 @mixin breakpoint($point) {
-  @if $point == papa-bear {
+  @if $point == lrg {
     @media (max-width: 1600px) { @content; }
   }
-  @else if $point == mama-bear {
-    @media (max-width: 1250px) { @content; }
+  @else if $point == med {
+    @media (max-width: 959px) { @content; }
   }
-  @else if $point == baby-bear {
-    @media (max-width: 650px)  { @content; }
+  @else if $point == sml {
+    @media (max-width: 767px)  { @content; }
   }
 }
 

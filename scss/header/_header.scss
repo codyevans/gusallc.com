@@ -1,0 +1,60 @@
+
+.main-header {
+	width: 100%;
+	border-top: $red 8px solid;
+	overflow: hidden;
+
+	@include box-shadow(rgba(0,0,0,0.25) 1px 0 5px);
+
+	// logo
+	.logo-wrap {
+		margin: 25px;
+		display: inline-block;
+	}
+
+	.logo {
+		fill: $red;
+	}
+
+	// nav
+	nav	{
+		float: right;
+		height: 75px;
+
+		a {
+			display: inline-block;
+			position: relative;
+			width: 120px;
+			height: 100%;
+			padding-top: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-align: center;
+			color: $dark-grey;
+			font-size: 14px;
+			letter-spacing: 1.5px;
+
+			@include transition(color 0.3s);
+
+			&:hover {
+				color: $red;
+			}
+		}
+
+		a.current {
+			color: $red;
+			background: $grey;
+			border-left: 1px solid $dark-grey;
+			border-right: 1px solid $dark-grey;
+		}
+	}
+
+} // end main header
+
+.main-header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+

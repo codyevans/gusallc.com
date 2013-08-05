@@ -12,3 +12,12 @@ $(window).on('load', function () {
 });
 
 */
+
+
+// sidr nav
+
+$('#simple-menu').sidr();
+
+$('#close').sidr();
+
+
