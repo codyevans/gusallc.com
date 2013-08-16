@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-	background: $white;
+	background: #EEEEEE;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 	height: 100%;
@@ -33,6 +33,12 @@ p {
 	margin-bottom: 10px;
 }
 
-/* === Page Defaults - backgrounds =============================== */
+/* === Page Defaults ======================================= */
 
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+	padding-top: 500px;
+}
 

@@ -657,7 +657,7 @@ html, body {
 
 /* line 17, ../scss/_globals.scss */
 body {
-  background: white;
+  background: #EEEEEE;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
   height: 100%;
@@ -675,7 +675,15 @@ p {
   margin-bottom: 10px;
 }
 
-/* === Page Defaults - backgrounds =============================== */
+/* === Page Defaults ======================================= */
+/* line 38, ../scss/_globals.scss */
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding-top: 500px;
+}
+
 /* line 4, ../scss/header/_sidr.scss */
 .sidr {
   display: none;
@@ -878,35 +886,71 @@ p {
   background: rgba(51, 51, 51, 0.9);
 }
 
-/* line 2, ../scss/header/_header.scss */
+/* line 1, ../scss/header/_header.scss */
 .main-header {
   width: 100%;
-  border-top: #b71b1e 8px solid;
+  position: fixed;
+  border-top: #b71b1e 0px solid;
+  background: rgba(255, 255, 255, 0);
   overflow: hidden;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 0 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 0 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 0 5px;
+  z-index: 100;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
+  -webkit-transition: background 0.3s, border 0.2s, box-shadow 0.2s;
+  -webkit-transition-delay: 0s, 0.5s, 0.5s;
+  -moz-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
+  -o-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
+  transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
 }
-/* line 10, ../scss/header/_header.scss */
-.main-header .logo-wrap {
-  margin: 25px;
-  display: inline-block;
+/* line 12, ../scss/header/_header.scss */
+.main-header a.logo-wrap {
+  display: block;
+  width: 192px;
+  height: 150px;
+  padding-left: 25px;
+  padding-top: 55px;
+  float: left;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
-/* line 15, ../scss/header/_header.scss */
-.main-header .logo {
-  fill: #b71b1e;
+/* line 21, ../scss/header/_header.scss */
+.main-header a.logo-wrap .logo {
+  fill: #8f8f8f;
+  fill-opacity: 0.5;
+  -webkit-transition: fill-opacity 0.2s;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition: fill-opacity 0.2s 0.5s;
+  -o-transition: fill-opacity 0.2s 0.5s;
+  transition: fill-opacity 0.2s 0.5s;
 }
-/* line 20, ../scss/header/_header.scss */
+/* line 31, ../scss/header/_header.scss */
+.main-header .logo-size svg {
+  width: 139px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 38, ../scss/header/_header.scss */
 .main-header nav {
   float: right;
   height: 75px;
+  padding-top: 50px;
+  opacity: 0.5;
+  -webkit-transition: padding 0.2s, opacity 0.2s;
+  -webkit-transition-delay: 0s, 0.5s;
+  -moz-transition: padding 0.2s, opacity 0.2s 0.5s;
+  -o-transition: padding 0.2s, opacity 0.2s 0.5s;
+  transition: padding 0.2s, opacity 0.2s 0.5s;
 }
-/* line 24, ../scss/header/_header.scss */
+/* line 45, ../scss/header/_header.scss */
 .main-header nav a {
   display: inline-block;
   position: relative;
-  width: 120px;
-  height: 100%;
+  margin-right: 50px;
   padding-top: 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -919,19 +963,68 @@ p {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 39, ../scss/header/_header.scss */
+/* line 58, ../scss/header/_header.scss */
+.main-header nav a:last-child {
+  margin-right: 30px;
+}
+/* line 62, ../scss/header/_header.scss */
 .main-header nav a:hover {
   color: #b71b1e;
 }
-/* line 44, ../scss/header/_header.scss */
+/* line 67, ../scss/header/_header.scss */
 .main-header nav a.current {
   color: #b71b1e;
-  background: #f4f4f4;
-  border-left: 1px solid #8f8f8f;
-  border-right: 1px solid #8f8f8f;
 }
 
-/* line 54, ../scss/header/_header.scss */
+/* line 75, ../scss/header/_header.scss */
+.main-header.scroll {
+  border-top: #b71b1e 5px solid;
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  -webkit-transition: background 0.3s, border 0.2s;
+  -moz-transition: background 0.3s, border 0.2s;
+  -o-transition: background 0.3s, border 0.2s;
+  transition: background 0.3s, border 0.2s;
+}
+/* line 82, ../scss/header/_header.scss */
+.main-header.scroll a.logo-wrap {
+  height: 100px;
+  padding-top: 30px;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+/* line 88, ../scss/header/_header.scss */
+.main-header.scroll a.logo-wrap .logo {
+  fill: #b71b1e;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0s;
+  -moz-transition: fill-opacity 0s;
+  -o-transition: fill-opacity 0s;
+  transition: fill-opacity 0s;
+}
+/* line 99, ../scss/header/_header.scss */
+.main-header.scroll .logo-size svg {
+  width: 119px;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+/* line 106, ../scss/header/_header.scss */
+.main-header.scroll nav {
+  padding-top: 20px;
+  opacity: 1;
+  -webkit-transition: padding 0.25s;
+  -moz-transition: padding 0.25s;
+  -o-transition: padding 0.25s;
+  transition: padding 0.25s;
+}
+
+/* line 114, ../scss/header/_header.scss */
 .main-header:after {
   content: "";
   display: table;
