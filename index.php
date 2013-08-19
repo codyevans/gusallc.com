@@ -43,18 +43,20 @@
                         </svg>
                     </div> 
                 </a> <!-- /logo -->
-                
-                <nav class="gpu">
+
+                <nav class="gpu"> 
                     <a href="#">About</a>
                     <a href="#">Team</a>
                     <a href="#">Products</a>
                     <a href="#">Contact</a>
-                    <a href="#">Documents</a> 
+                    <a href="#">Documents</a>
                 </nav>
 
             </div> <!-- /header-inner -->
 
         </header> 
+
+
 
         <div class="container">
 
@@ -163,23 +165,6 @@
 
         </div>
 
-        
-
-
-
-
-       <!--  <a id="simple-menu" href="#sidr">Toogle menu</a> -->
-
-        <div id="sidr">
-          <!-- Your content -->
-          <ul>
-            <li><a href="#">List 1</a></li>
-            <li class="active"><a href="#">List 2</a></li>
-            <li><a href="#">List 3</a></li>
-          </ul>
-        </div>
-
-    
     
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

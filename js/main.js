@@ -1,5 +1,5 @@
 
-//add remove scroll on header
+// add remove scroll on header
 $(window).scroll(function(){
 	
 	if($(window).scrollTop() <= 20){
@@ -9,11 +9,4 @@ $(window).scroll(function(){
 	}
 
 });
-
-
-// sidr nav
-$('#simple-menu').sidr();
-
-$('#close').sidr();
-
 

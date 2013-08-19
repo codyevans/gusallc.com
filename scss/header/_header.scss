@@ -42,6 +42,10 @@
 		opacity: 0.5;
 		@include transition(padding 0.2s, opacity 0.2s 0.5s);
 
+		@include breakpoint(sml) {
+			display: none;
+		}
+
 		a {
 			display: inline-block;
 			position: relative;

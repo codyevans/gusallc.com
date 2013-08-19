@@ -20,7 +20,7 @@ $dark-grey: #8F8F8F;
     @media (max-width: 959px) { @content; }
   }
   @else if $point == sml {
-    @media (max-width: 767px)  { @content; }
+    @media (max-width: 820px)  { @content; }
   }
 }
 
