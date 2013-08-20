@@ -8,6 +8,10 @@
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
 	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s);
 
+	@include breakpoint(sml) {
+		overflow: visible;
+	}
+
 	.header-inner {
 		max-width: 1000px;
 		margin: 0 auto;
@@ -70,7 +74,9 @@
 		@include transition(padding 0.2s, opacity 0.2s 0.5s);
 
 		@include breakpoint(sml) {
-			display: none;
+			display: block;
+			position: absolute;
+			padding-top: 150px;
 		}
 
 		a {
@@ -98,6 +104,10 @@
 		a.current {
 			color: $red;
 		}
+	}
+
+	.hidden {
+		display: none;
 	}
 
 } // end main header
