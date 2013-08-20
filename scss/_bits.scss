@@ -13,14 +13,20 @@ $dark-grey: #8F8F8F;
 
 // breakpoints
 @mixin breakpoint($point) {
-  @if $point == lrg {
+  @if $point == superlrg {
     @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == lrg {
+    @media (max-width: 1000px) { @content; }
   }
   @else if $point == med {
     @media (max-width: 959px) { @content; }
   }
   @else if $point == sml {
     @media (max-width: 820px)  { @content; }
+  }
+   @else if $point == supersml {
+    @media (max-width: 767px)  { @content; }
   }
 }
 

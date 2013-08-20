@@ -8,6 +8,29 @@
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
 	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s);
 
+	.header-inner {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	a.menu-icon {
+		display: none;
+
+		@include breakpoint(sml) {
+			display: block;
+			float: right;
+			padding-top: 58px;
+			margin-right: 25px;
+			@include transition(padding 0.2s);
+
+			.navicon {
+				fill: $dark-grey;
+				fill-opacity: 0.5;
+				@include transition(fill-opacity 0.2s 0.5s);
+			}
+		}	
+	} 
+
 	// logo wrap
 	a.logo-wrap {
 		display: block;
@@ -22,6 +45,10 @@
 			fill: $dark-grey;
 			fill-opacity: 0.5;
 			@include transition(fill-opacity 0.2s 0.5s);
+		}
+
+		@include breakpoint(sml) {
+			height: 100px;
 		}
 	}
 
@@ -39,7 +66,7 @@
 		float: right;
 		height: 75px;
 		padding-top: 50px;
-		opacity: 0.5;
+		opacity: 0.6;
 		@include transition(padding 0.2s, opacity 0.2s 0.5s);
 
 		@include breakpoint(sml) {
@@ -82,11 +109,27 @@
 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
 	@include transition(background 0.3s, border 0.2s);
 
+	a.menu-icon {
+		display: none;
+
+		@include breakpoint(sml) {
+			display: block;
+			float: right;
+			padding-top: 33px;
+			@include transition(padding 0.25s);
+
+			.navicon {
+				fill: $red;
+				fill-opacity: 1;
+				@include transition(fill-opacity 0s);
+			}
+		}	
+	} 
+
 	// logo
 	a.logo-wrap {
 		height: 100px;
 		padding-top: 30px;
-
 		@include transition(all 0.25s);
 
 		.logo {

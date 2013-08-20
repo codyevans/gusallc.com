@@ -1,4 +1,4 @@
-/* line 29, ../scss/_bits.scss */
+/* line 35, ../scss/_bits.scss */
 .gpu {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -679,9 +679,10 @@ p {
 /* line 38, ../scss/_globals.scss */
 .container {
   margin: 0 auto;
-  width: 90%;
   max-width: 1000px;
-  padding-top: 500px;
+  padding-top: 300px;
+  padding-left: 30px;
+  padding-right: 29px;
 }
 
 /* line 4, ../scss/header/_sidr.scss */
@@ -903,7 +904,39 @@ p {
   -o-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
   transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
 }
-/* line 12, ../scss/header/_header.scss */
+/* line 11, ../scss/header/_header.scss */
+.main-header .header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* line 16, ../scss/header/_header.scss */
+.main-header a.menu-icon {
+  display: none;
+}
+@media (max-width: 820px) {
+  /* line 16, ../scss/header/_header.scss */
+  .main-header a.menu-icon {
+    display: block;
+    float: right;
+    padding-top: 58px;
+    margin-right: 25px;
+    -webkit-transition: padding 0.2s;
+    -moz-transition: padding 0.2s;
+    -o-transition: padding 0.2s;
+    transition: padding 0.2s;
+  }
+  /* line 26, ../scss/header/_header.scss */
+  .main-header a.menu-icon .navicon {
+    fill: #8f8f8f;
+    fill-opacity: 0.5;
+    -webkit-transition: fill-opacity 0.2s;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition: fill-opacity 0.2s 0.5s;
+    -o-transition: fill-opacity 0.2s 0.5s;
+    transition: fill-opacity 0.2s 0.5s;
+  }
+}
+/* line 35, ../scss/header/_header.scss */
 .main-header a.logo-wrap {
   display: block;
   width: 192px;
@@ -916,7 +949,7 @@ p {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 21, ../scss/header/_header.scss */
+/* line 44, ../scss/header/_header.scss */
 .main-header a.logo-wrap .logo {
   fill: #8f8f8f;
   fill-opacity: 0.5;
@@ -926,7 +959,13 @@ p {
   -o-transition: fill-opacity 0.2s 0.5s;
   transition: fill-opacity 0.2s 0.5s;
 }
-/* line 31, ../scss/header/_header.scss */
+@media (max-width: 820px) {
+  /* line 35, ../scss/header/_header.scss */
+  .main-header a.logo-wrap {
+    height: 100px;
+  }
+}
+/* line 58, ../scss/header/_header.scss */
 .main-header .logo-size svg {
   width: 139px;
   -webkit-transition: all 0.2s;
@@ -934,12 +973,12 @@ p {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 38, ../scss/header/_header.scss */
+/* line 65, ../scss/header/_header.scss */
 .main-header nav {
   float: right;
   height: 75px;
   padding-top: 50px;
-  opacity: 0.5;
+  opacity: 0.6;
   -webkit-transition: padding 0.2s, opacity 0.2s;
   -webkit-transition-delay: 0s, 0.5s;
   -moz-transition: padding 0.2s, opacity 0.2s 0.5s;
@@ -947,12 +986,12 @@ p {
   transition: padding 0.2s, opacity 0.2s 0.5s;
 }
 @media (max-width: 820px) {
-  /* line 38, ../scss/header/_header.scss */
+  /* line 65, ../scss/header/_header.scss */
   .main-header nav {
     display: none;
   }
 }
-/* line 49, ../scss/header/_header.scss */
+/* line 76, ../scss/header/_header.scss */
 .main-header nav a {
   display: inline-block;
   position: relative;
@@ -969,20 +1008,20 @@ p {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 62, ../scss/header/_header.scss */
+/* line 89, ../scss/header/_header.scss */
 .main-header nav a:last-child {
   margin-right: 30px;
 }
-/* line 66, ../scss/header/_header.scss */
+/* line 93, ../scss/header/_header.scss */
 .main-header nav a:hover {
   color: #b71b1e;
 }
-/* line 71, ../scss/header/_header.scss */
+/* line 98, ../scss/header/_header.scss */
 .main-header nav a.current {
   color: #b71b1e;
 }
 
-/* line 79, ../scss/header/_header.scss */
+/* line 106, ../scss/header/_header.scss */
 .main-header.scroll {
   border-top: #b71b1e 5px solid;
   background: white;
@@ -994,7 +1033,32 @@ p {
   -o-transition: background 0.3s, border 0.2s;
   transition: background 0.3s, border 0.2s;
 }
-/* line 86, ../scss/header/_header.scss */
+/* line 112, ../scss/header/_header.scss */
+.main-header.scroll a.menu-icon {
+  display: none;
+}
+@media (max-width: 820px) {
+  /* line 112, ../scss/header/_header.scss */
+  .main-header.scroll a.menu-icon {
+    display: block;
+    float: right;
+    padding-top: 33px;
+    -webkit-transition: padding 0.25s;
+    -moz-transition: padding 0.25s;
+    -o-transition: padding 0.25s;
+    transition: padding 0.25s;
+  }
+  /* line 121, ../scss/header/_header.scss */
+  .main-header.scroll a.menu-icon .navicon {
+    fill: #b71b1e;
+    fill-opacity: 1;
+    -webkit-transition: fill-opacity 0s;
+    -moz-transition: fill-opacity 0s;
+    -o-transition: fill-opacity 0s;
+    transition: fill-opacity 0s;
+  }
+}
+/* line 130, ../scss/header/_header.scss */
 .main-header.scroll a.logo-wrap {
   height: 100px;
   padding-top: 30px;
@@ -1003,7 +1067,7 @@ p {
   -o-transition: all 0.25s;
   transition: all 0.25s;
 }
-/* line 92, ../scss/header/_header.scss */
+/* line 135, ../scss/header/_header.scss */
 .main-header.scroll a.logo-wrap .logo {
   fill: #b71b1e;
   fill-opacity: 1;
@@ -1012,7 +1076,7 @@ p {
   -o-transition: fill-opacity 0s;
   transition: fill-opacity 0s;
 }
-/* line 103, ../scss/header/_header.scss */
+/* line 146, ../scss/header/_header.scss */
 .main-header.scroll .logo-size svg {
   width: 119px;
   -webkit-transition: all 0.25s;
@@ -1020,7 +1084,7 @@ p {
   -o-transition: all 0.25s;
   transition: all 0.25s;
 }
-/* line 110, ../scss/header/_header.scss */
+/* line 153, ../scss/header/_header.scss */
 .main-header.scroll nav {
   padding-top: 20px;
   opacity: 1;
@@ -1030,7 +1094,7 @@ p {
   transition: padding 0.25s;
 }
 
-/* line 118, ../scss/header/_header.scss */
+/* line 161, ../scss/header/_header.scss */
 .main-header:after {
   content: "";
   display: table;

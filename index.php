@@ -44,6 +44,17 @@
                     </div> 
                 </a> <!-- /logo -->
 
+                <a href="#" class="menu-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="28.951px" height="26.693px" viewBox="0 0 28.951 26.693" enable-background="new 0 0 28.951 26.693" xml:space="preserve">
+                        <g>
+                            <rect class="navicon" x="0.913" y="1.02" width="27.345" height="6"/>
+                            <rect class="navicon" x="0.913" y="10.458" width="27.345" height="6"/>
+                            <rect class="navicon" x="0.913" y="19.896" width="27.345" height="6"/>
+                        </g>
+                    </svg>
+                </a>
+
                 <nav class="gpu"> 
                     <a href="#">About</a>
                     <a href="#">Team</a>
