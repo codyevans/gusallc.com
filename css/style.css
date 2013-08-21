@@ -936,15 +936,16 @@ p {
 .main-header.open {
   top: 390px;
   background: #b71b1e;
+  overflow: visible;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
 }
-/* line 10, ../scss/header/_header-mobile.scss */
+/* line 11, ../scss/header/_header-mobile.scss */
 .main-header.open a.logo-wrap .logo {
   fill: white;
 }
-/* line 18, ../scss/header/_header-mobile.scss */
+/* line 19, ../scss/header/_header-mobile.scss */
 .main-header.open a.menu-icon .navicon {
   fill: white;
   fill-opacity: 1;
@@ -953,8 +954,21 @@ p {
   -o-transition: fill-opacity 0s;
   transition: fill-opacity 0s;
 }
+/* line 26, ../scss/header/_header-mobile.scss */
+.main-header.open nav {
+  display: block;
+  position: absolute;
+  padding-top: 0px;
+  top: -300px;
+  text-align: center;
+  background: white;
+  height: 295px;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+}
 
-/* line 28, ../scss/header/_header-mobile.scss */
+/* line 44, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open {
   top: 390px;
   background: #b71b1e;

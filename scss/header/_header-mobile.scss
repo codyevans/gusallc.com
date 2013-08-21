@@ -2,6 +2,7 @@
 .main-header.open {
 	top: 390px;
 	background: $red;
+	overflow: visible;
 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
 
 	// logo wrap
@@ -20,9 +21,24 @@
 			fill-opacity: 1;
 			@include transition(fill-opacity 0s);
 		}
-	} 
+	}
+
+	nav {
+		display: block;
+		position: absolute;
+		padding-top: 0px;
+		top: -300px;
+		text-align: center;
+		background: $white;
+		height: 295px;
+		width: 100%;
+		z-index: 0;
+		opacity: 1;
+	}
 
 } // end header mobile
+
+
 
 
 .main-header.scroll.open {
