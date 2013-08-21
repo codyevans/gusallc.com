@@ -696,11 +696,11 @@ p {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0px 1px;
-  -webkit-transition: background 0.3s, border 0.2s, box-shadow 0.2s, top 0.5s;
-  -webkit-transition-delay: 0s, 0.5s, 0.5s, 0s;
-  -moz-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s;
-  -o-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s;
-  transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s;
+  -webkit-transition: background 0.3s, border 0.2s, box-shadow 0.2s;
+  -webkit-transition-delay: 0s, 0.5s, 0.5s;
+  -moz-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
+  -o-transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
+  transition: background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s;
 }
 /* line 11, ../scss/header/_header.scss */
 .main-header .header-inner {
@@ -930,6 +930,37 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+/* line 2, ../scss/header/_header-mobile.scss */
+.main-header.open {
+  top: 390px;
+  background: #b71b1e;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+}
+/* line 10, ../scss/header/_header-mobile.scss */
+.main-header.open a.logo-wrap .logo {
+  fill: white;
+}
+/* line 18, ../scss/header/_header-mobile.scss */
+.main-header.open a.menu-icon .navicon {
+  fill: white;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0s;
+  -moz-transition: fill-opacity 0s;
+  -o-transition: fill-opacity 0s;
+  transition: fill-opacity 0s;
+}
+
+/* line 28, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open {
+  top: 390px;
+  background: #b71b1e;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
 }
 
 /* line 3, ../scss/pages/_terms-conditions.scss */

@@ -1,0 +1,32 @@
+
+.main-header.open {
+	top: 390px;
+	background: $red;
+	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+
+	// logo wrap
+	a.logo-wrap {
+
+		.logo {
+			fill: $white;
+		}
+	}
+	
+	// navicon
+	a.menu-icon {
+	
+		.navicon {
+			fill: $white;
+			fill-opacity: 1;
+			@include transition(fill-opacity 0s);
+		}
+	} 
+
+} // end header mobile
+
+
+.main-header.scroll.open {
+	top: 390px;
+	background: $red;
+	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+}

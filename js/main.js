@@ -7,9 +7,9 @@ var header = $('.main-header');
 $(window).scroll(function(){
 	
 	if($(window).scrollTop() <= 20){
-	  $('.main-header').removeClass('scroll')
+	  header.removeClass('scroll');
 	}else{
-	  $('.main-header').addClass('scroll')
+	  header.addClass('scroll');
 	}
 
 });
@@ -33,7 +33,7 @@ function mobileNav() {
 
 		unmatch: function() {
 
-			btn.removeClass('open');
+			header.removeClass('open');
 
 			btn.click(function(e) {
 				header.toggleClass('open');

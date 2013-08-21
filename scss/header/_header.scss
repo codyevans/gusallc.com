@@ -6,7 +6,7 @@
 	overflow: hidden;
 	z-index: 100;
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
-	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s);
+	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s);
 
 	.header-inner {
 		max-width: 1000px;
