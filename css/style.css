@@ -932,19 +932,6 @@ p {
   clear: both;
 }
 
-/* line 2, ../scss/header/_header-mobile.scss */
-.test {
-  width: 100px;
-  height: 100px;
-  background: #b71b1e;
-  display: none;
-}
-
-/* line 9, ../scss/header/_header-mobile.scss */
-.open-test {
-  display: block;
-}
-
 /* line 3, ../scss/pages/_terms-conditions.scss */
 .terms-warning {
   width: 100%;

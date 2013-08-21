@@ -1,4 +1,8 @@
 
+// global variables
+var header = $('.main-header');
+
+
 // add remove scroll on header
 $(window).scroll(function(){
 	
@@ -14,15 +18,14 @@ $(window).scroll(function(){
 // mobile nav 
 function mobileNav() {
 
-	var btn = $('#mobile-nav-btn'),
-		header = $('.main-header');
+	var btn = $('#mobile-nav-btn');
 
 	enquire.register("(max-width: 820px)", {
 
 		match: function() {
 
 			btn.click(function(e) {
-				$('.test').toggleClass('open-test');
+				header.toggleClass('open');
 				e.preventDefault();
 			});
 
@@ -30,10 +33,10 @@ function mobileNav() {
 
 		unmatch: function() {
 
-			$('.test').removeClass('open-test');
+			btn.removeClass('open');
 
-			$('#mobile-nav-btn').click(function(e) {
-				$('.test').toggleClass('open-test');
+			btn.click(function(e) {
+				header.toggleClass('open');
 				e.preventDefault();
 			});
 
