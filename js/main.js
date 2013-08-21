@@ -10,3 +10,14 @@ $(window).scroll(function(){
 
 });
 
+// mobile nav open/close
+$('#mobile-nav-btn').click(function(e) {
+
+	$('.main-header').toggleClass('open');
+	e.preventDefault();
+
+});
+
+// if ($(window).width() > 900) {
+// 	$('.main-header').removeClass('open');
+// }

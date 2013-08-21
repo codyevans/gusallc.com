@@ -6,7 +6,7 @@
 	overflow: hidden;
 	z-index: 100;
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
-	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s);
+	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s);
 
 	@include breakpoint(sml) {
 		overflow: visible;
@@ -46,8 +46,8 @@
 		@include transition(all 0.2s);
 
 		.logo {
-			fill: $dark-grey;
-			fill-opacity: 0.5;
+			fill: $red;
+			fill-opacity: 1;
 			@include transition(fill-opacity 0.2s 0.5s);
 		}
 
@@ -76,8 +76,14 @@
 		@include breakpoint(sml) {
 			display: block;
 			position: absolute;
-			padding-top: 150px;
-		}
+			padding-top: 0px;
+			top: -260px;
+			text-align: center;
+			background: $white;
+			height: 300px;
+			width: 100%;
+
+		} // end small breakpoint
 
 		a {
 			display: inline-block;
@@ -99,15 +105,24 @@
 			&:hover {
 				color: $red;
 			}
+
+			@include breakpoint(sml) {
+				display: block;
+				margin-right: 0px;
+				padding-bottom: 20px;
+
+				@include box-shadow(inset rgba(0,0,0,0.1) 1px 0 0px 1px);
+
+				&:last-child {
+					margin-right: 0px;
+				}
+			}
 		}
 
 		a.current {
 			color: $red;
 		}
-	}
 
-	.hidden {
-		display: none;
 	}
 
 } // end main header
@@ -167,6 +182,32 @@
 	}
 
 } // end scroll-fx
+
+.main-header.open {
+	position: fixed;
+	top: 250px;
+	background: red;
+	@include transition(top 0.5s);
+
+	@media (min-width: 820px) {
+		top: 0px;
+		background: rgba(255,255,255,0);
+	}
+
+} // end mobile open
+
+.main-header.scroll.open {
+	position: fixed;
+	top: 250px;
+	background: red;
+	@include transition(top 0.5s);
+
+	@media (min-width: 820px) {
+		top: 0px;
+		background: $white;
+	}
+
+} // end mobile open scroll
 
 .main-header:after {
 	content: "";
