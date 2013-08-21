@@ -10,14 +10,39 @@ $(window).scroll(function(){
 
 });
 
-// mobile nav open/close
-$('#mobile-nav-btn').click(function(e) {
 
-	$('.main-header').toggleClass('open');
-	e.preventDefault();
+// mobile nav 
+function mobileNav() {
 
-});
+	var btn = $('#mobile-nav-btn'),
+		header = $('.main-header');
 
-// if ($(window).width() > 900) {
-// 	$('.main-header').removeClass('open');
-// }
+	enquire.register("(max-width: 820px)", {
+
+		match: function() {
+
+			btn.click(function(e) {
+				$('.test').toggleClass('open-test');
+				e.preventDefault();
+			});
+
+		},
+
+		unmatch: function() {
+
+			$('.test').removeClass('open-test');
+
+			$('#mobile-nav-btn').click(function(e) {
+				$('.test').toggleClass('open-test');
+				e.preventDefault();
+			});
+
+		}
+
+	});
+
+};
+
+// run function
+mobileNav();
+

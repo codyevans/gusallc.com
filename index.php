@@ -45,14 +45,16 @@
                 </a> <!-- /logo -->
 
                 <a href="#" class="menu-icon" id="mobile-nav-btn">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             width="28.951px" height="26.693px" viewBox="0 0 28.951 26.693" enable-background="new 0 0 28.951 26.693" xml:space="preserve">
-                        <g>
-                            <rect class="navicon" x="0.913" y="1.02" width="27.345" height="6"/>
-                            <rect class="navicon" x="0.913" y="10.458" width="27.345" height="6"/>
-                            <rect class="navicon" x="0.913" y="19.896" width="27.345" height="6"/>
-                        </g>
-                    </svg>
+                    <div class="icon-size">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 width="28.951px" height="26.693px" viewBox="0 0 28.951 26.693" enable-background="new 0 0 28.951 26.693" xml:space="preserve">
+                            <g>
+                                <rect class="navicon" x="0.913" y="1.02" width="27.345" height="6"/>
+                                <rect class="navicon" x="0.913" y="10.458" width="27.345" height="6"/>
+                                <rect class="navicon" x="0.913" y="19.896" width="27.345" height="6"/>
+                            </g>
+                        </svg>
+                    </div>
                 </a>
 
                 <nav class="gpu"> 
@@ -66,6 +68,8 @@
             </div> <!-- /header-inner -->
 
         </header> 
+
+        <div class="test"></div>
 
 
 
@@ -162,17 +166,7 @@
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-
-
+        
 
         </div>
 

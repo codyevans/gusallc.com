@@ -8,10 +8,6 @@
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
 	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s);
 
-	@include breakpoint(sml) {
-		overflow: visible;
-	}
-
 	.header-inner {
 		max-width: 1000px;
 		margin: 0 auto;
@@ -20,10 +16,11 @@
 	a.menu-icon {
 		display: none;
 
+		// mobile
 		@include breakpoint(sml) {
 			display: block;
 			float: right;
-			padding-top: 58px;
+			padding-top: 37px;
 			margin-right: 25px;
 			@include transition(padding 0.2s);
 
@@ -32,7 +29,14 @@
 				fill-opacity: 0.5;
 				@include transition(fill-opacity 0.2s 0.5s);
 			}
-		}	
+
+			.icon-size {
+				svg	{
+					width: 27px;
+					@include transition(width 0.2s);
+				}
+			}
+		} // end mobile	
 	} 
 
 	// logo wrap
@@ -45,14 +49,15 @@
 		float: left;
 		@include transition(all 0.2s);
 
+		@include breakpoint(sml) {
+			height: 100px;
+			padding-top: 33px;
+		}
+
 		.logo {
 			fill: $red;
 			fill-opacity: 1;
 			@include transition(fill-opacity 0.2s 0.5s);
-		}
-
-		@include breakpoint(sml) {
-			height: 100px;
 		}
 	}
 
@@ -62,6 +67,10 @@
 		svg {
 			width: 139px;
 			@include transition(all 0.2s);
+
+			@include breakpoint(sml) {
+				width: 119px;
+			}
 		}
 	}
 
@@ -74,16 +83,8 @@
 		@include transition(padding 0.2s, opacity 0.2s 0.5s);
 
 		@include breakpoint(sml) {
-			display: block;
-			position: absolute;
-			padding-top: 0px;
-			top: -260px;
-			text-align: center;
-			background: $white;
-			height: 300px;
-			width: 100%;
-
-		} // end small breakpoint
+			display: none;
+		}
 
 		a {
 			display: inline-block;
@@ -106,17 +107,6 @@
 				color: $red;
 			}
 
-			@include breakpoint(sml) {
-				display: block;
-				margin-right: 0px;
-				padding-bottom: 20px;
-
-				@include box-shadow(inset rgba(0,0,0,0.1) 1px 0 0px 1px);
-
-				&:last-child {
-					margin-right: 0px;
-				}
-			}
 		}
 
 		a.current {
@@ -126,6 +116,7 @@
 	}
 
 } // end main header
+
 
 // scroll-fx
 .main-header.scroll {
@@ -137,18 +128,26 @@
 	a.menu-icon {
 		display: none;
 
+		// mobile
 		@include breakpoint(sml) {
 			display: block;
 			float: right;
-			padding-top: 33px;
-			@include transition(padding 0.25s);
+			padding-top: 23px;
+			margin-right: 25px;
+			@include transition(padding 0.2s);
 
 			.navicon {
 				fill: $red;
 				fill-opacity: 1;
 				@include transition(fill-opacity 0s);
 			}
-		}	
+
+			.icon-size {
+				svg	{
+					width: 23px;
+				}
+			}
+		} // end mobile	
 	} 
 
 	// logo
@@ -156,6 +155,11 @@
 		height: 100px;
 		padding-top: 30px;
 		@include transition(all 0.25s);
+
+		@include breakpoint(sml) {
+			height: 70px;
+			padding-top: 18px;
+		}
 
 		.logo {
 			fill: $red;
@@ -171,6 +175,10 @@
 		svg {
 			width: 119px;
 			@include transition(all 0.25s);
+
+			@include breakpoint(sml) {
+				width: 100px;
+			}
 		}
 	}
 
@@ -183,35 +191,286 @@
 
 } // end scroll-fx
 
-.main-header.open {
-	position: fixed;
-	top: 250px;
-	background: red;
-	@include transition(top 0.5s);
-
-	@media (min-width: 820px) {
-		top: 0px;
-		background: rgba(255,255,255,0);
-	}
-
-} // end mobile open
-
-.main-header.scroll.open {
-	position: fixed;
-	top: 250px;
-	background: red;
-	@include transition(top 0.5s);
-
-	@media (min-width: 820px) {
-		top: 0px;
-		background: $white;
-	}
-
-} // end mobile open scroll
-
 .main-header:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
+
+
+
+
+
+
+// .main-header {
+// 	width: 100%;
+// 	position: fixed;
+// 	border-top: $red 0px solid;
+// 	background: rgba(255,255,255,0);
+// 	overflow: hidden;
+// 	z-index: 100;
+// 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);
+// 	@include transition(background 0.3s, border 0.2s 0.5s, box-shadow 0.2s 0.5s, top 0.5s);
+
+// 	// mobile
+// 	@include breakpoint(sml) {
+// 		overflow: visible;
+// 	} // end mobile
+
+// 	.header-inner {
+// 		max-width: 1000px;
+// 		margin: 0 auto;
+// 	}
+
+// 	a.menu-icon {
+// 		display: none;
+
+// 		// mobile
+// 		@include breakpoint(sml) {
+// 			display: block;
+// 			float: right;
+// 			padding-top: 58px;
+// 			margin-right: 25px;
+// 			@include transition(padding 0.2s);
+
+// 			.navicon {
+// 				fill: $dark-grey;
+// 				fill-opacity: 0.5;
+// 				@include transition(fill-opacity 0.2s 0.5s);
+// 			}
+// 		} // end mobile	
+// 	} 
+
+// 	// logo wrap
+// 	a.logo-wrap {
+// 		display: block;
+// 		width: 192px;
+// 		height: 150px;
+// 		padding-left: 25px;
+// 		padding-top: 55px;
+// 		float: left;
+// 		@include transition(all 0.2s);
+
+// 		.logo {
+// 			fill: $red;
+// 			fill-opacity: 1;
+// 			@include transition(fill-opacity 0.2s 0.5s);
+// 		}
+
+// 		// mobile
+// 		@include breakpoint(sml) {
+// 			height: 100px;
+// 		}
+// 	}
+
+// 	// logo sizing
+// 	.logo-size {
+		
+// 		svg {
+// 			width: 139px;
+// 			@include transition(all 0.2s);
+// 		}
+// 	}
+
+// 	// nav
+// 	nav	{
+// 		float: right;
+// 		height: 75px;
+// 		padding-top: 50px;
+// 		opacity: 0.6;
+// 		@include transition(padding 0.2s, opacity 0.2s 0.5s);
+
+// 		// mobile
+// 		@include breakpoint(sml) {
+// 			display: block;
+// 			position: absolute;
+// 			padding-top: 0px;
+// 			top: -300px;
+// 			text-align: center;
+// 			background: $white;
+// 			height: 295px;
+// 			width: 100%;
+// 			z-index: 0;
+// 			opacity: 1;
+
+// 		} // end mobile
+
+// 		a {
+// 			display: inline-block;
+// 			position: relative;
+// 			margin-right: 50px;
+// 			padding-top: 20px;
+// 			text-decoration: none;
+// 			text-transform: uppercase;
+// 			text-align: center;
+// 			color: $dark-grey;
+// 			font-size: 14px;
+// 			letter-spacing: 1.5px;
+// 			@include transition(color 0.3s);
+
+// 			&:last-child {
+// 				margin-right: 30px;
+// 			}
+
+// 			&:hover {
+// 				color: $red;
+// 			}
+
+// 			// mobile
+// 			@include breakpoint(sml) {
+// 				display: block;
+// 				margin-right: 0px;
+// 				padding-bottom: 20px;
+// 				z-index: 0;
+
+// 				@include box-shadow(inset rgba(0,0,0,0.1) 1px 0 0px 1px);
+
+// 				&:last-child {
+// 					margin-right: 0px;
+// 					@include box-shadow(none);
+// 				}
+// 			} // end mobile
+// 		}
+
+// 		a.current {
+// 			color: $red;
+// 		}
+
+// 	}
+
+// } // end main header
+
+// // scroll-fx
+// .main-header.scroll {
+// 	border-top: $red 5px solid;
+// 	background: $white;
+// 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+// 	@include transition(background 0.3s, border 0.2s);
+
+// 	a.menu-icon {
+// 		display: none;
+
+// 		// mobile
+// 		@include breakpoint(sml) {
+// 			display: block;
+// 			float: right;
+// 			padding-top: 33px;
+// 			@include transition(padding 0.25s);
+
+// 			.navicon {
+// 				fill: $red;
+// 				fill-opacity: 1;
+// 				@include transition(fill-opacity 0s);
+// 			}
+// 		} // end mobile
+// 	} 
+
+// 	// logo
+// 	a.logo-wrap {
+// 		height: 100px;
+// 		padding-top: 30px;
+// 		@include transition(all 0.25s);
+
+// 		.logo {
+// 			fill: $red;
+// 			fill-opacity: 1;
+// 			@include transition(fill-opacity 0s);
+// 		}
+
+// 	} // end logo wrap
+
+// 	// logo sizing
+// 	.logo-size {
+		
+// 		svg {
+// 			width: 119px;
+// 			@include transition(all 0.25s);
+// 		}
+// 	}
+
+// 	// nav
+// 	nav	{
+// 		padding-top: 20px;
+// 		opacity: 1;
+// 		@include transition(padding 0.25s);
+// 	}
+
+// } // end scroll-fx
+
+// // mobile open
+// .main-header.open {
+// 	position: fixed;
+// 	top: 390px;
+// 	background: $red;
+// 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+
+// 	// logo
+// 	a.logo-wrap {
+// 		padding-top: 30px;
+
+// 		.logo {
+// 			fill: $white;
+// 		}
+// 	}
+
+// 	// logo sizing
+// 	.logo-size {
+		
+// 		svg {
+// 			width: 119px;
+// 			@include transition(all 0.25s);
+// 		}
+// 	}
+
+// 	// navicon
+// 	a.menu-icon {
+// 		padding-top: 33px;
+
+// 		.navicon {
+// 			fill: $white;
+// 			fill-opacity: 1;
+// 		}
+// 	}
+
+// 	@media (min-width: 820px) {
+// 		top: 0px;
+// 		background: rgba(255,255,255,0);
+
+// 		a.logo-wrap {
+// 			padding-top: 55px;
+
+// 			.logo {
+// 				fill: $red;
+// 			}
+// 		}
+// 	}
+
+// } // end mobile open
+
+// // mobile open on scroll
+// .main-header.scroll.open {
+// 	position: fixed;
+// 	top: 390px;
+// 	background: $red;
+
+// 	@media (min-width: 820px) {
+// 		top: 0px;
+// 		background: $white;
+
+// 		a.logo-wrap {
+// 			.logo {
+// 				fill: $red;
+// 			}
+// 		}
+// 	}
+
+// } // end mobile open scroll
+
+// .main-header:after {
+// 	content: "";
+// 	display: table;
+// 	clear: both;
+// }
+
 

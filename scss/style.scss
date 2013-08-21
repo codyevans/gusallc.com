@@ -10,8 +10,8 @@
 @import "globals";
 
 // header
-@import "header/sidr";
 @import "header/header";
+@import "header/header-mobile";
 
 // page specific styles
 @import	"pages/terms-conditions";
