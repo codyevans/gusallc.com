@@ -680,7 +680,7 @@ p {
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  padding-top: 300px;
+  padding-top: 180px;
   padding-left: 30px;
   padding-right: 29px;
 }
@@ -934,18 +934,23 @@ p {
 
 /* line 2, ../scss/header/_header-mobile.scss */
 .main-header.open {
-  top: 390px;
+  top: 280px;
   background: #b71b1e;
   overflow: visible;
+  border: 0px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  -o-transition: top 0.3s;
+  transition: top 0.3s;
 }
-/* line 11, ../scss/header/_header-mobile.scss */
-.main-header.open a.logo-wrap .logo {
-  fill: white;
+/* line 10, ../scss/header/_header-mobile.scss */
+.main-header.open a.menu-icon {
+  padding-top: 23px;
 }
-/* line 19, ../scss/header/_header-mobile.scss */
+/* line 13, ../scss/header/_header-mobile.scss */
 .main-header.open a.menu-icon .navicon {
   fill: white;
   fill-opacity: 1;
@@ -954,27 +959,123 @@ p {
   -o-transition: fill-opacity 0s;
   transition: fill-opacity 0s;
 }
-/* line 26, ../scss/header/_header-mobile.scss */
+/* line 20, ../scss/header/_header-mobile.scss */
+.main-header.open a.menu-icon .icon-size svg {
+  width: 23px;
+}
+/* line 27, ../scss/header/_header-mobile.scss */
+.main-header.open a.logo-wrap {
+  height: 70px;
+  padding-top: 18px;
+}
+/* line 31, ../scss/header/_header-mobile.scss */
+.main-header.open a.logo-wrap .logo {
+  fill: white;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0s;
+  -moz-transition: fill-opacity 0s;
+  -o-transition: fill-opacity 0s;
+  transition: fill-opacity 0s;
+}
+/* line 42, ../scss/header/_header-mobile.scss */
+.main-header.open .logo-size svg {
+  width: 100px;
+}
+/* line 48, ../scss/header/_header-mobile.scss */
 .main-header.open nav {
   display: block;
   position: absolute;
   padding-top: 0px;
-  top: -300px;
+  top: -280px;
   text-align: center;
   background: white;
-  height: 295px;
+  height: 281px;
   width: 100%;
-  z-index: 0;
   opacity: 1;
 }
+/* line 59, ../scss/header/_header-mobile.scss */
+.main-header.open nav a {
+  display: block;
+  padding: 18px 0;
+  margin-right: 0px;
+  color: #8f8f8f;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+/* line 69, ../scss/header/_header-mobile.scss */
+.main-header.open nav a:last-child {
+  margin-right: 0px;
+  padding-bottom: 26px;
+}
+/* line 74, ../scss/header/_header-mobile.scss */
+.main-header.open nav a:hover {
+  color: #b71b1e;
+}
+/* line 80, ../scss/header/_header-mobile.scss */
+.main-header.open nav a.current {
+  color: #b71b1e;
+  text-shadow: white 0px 1px 0px;
+  background: #f4f4f4;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+}
 
-/* line 44, ../scss/header/_header-mobile.scss */
+/* line 92, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open {
-  top: 390px;
+  top: 280px;
   background: #b71b1e;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
+}
+/* line 98, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open nav {
+  display: block;
+  position: absolute;
+  padding-top: 0px;
+  top: -280px;
+  text-align: center;
+  background: white;
+  height: 281px;
+  width: 100%;
+  opacity: 1;
+}
+/* line 109, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open nav a {
+  display: block;
+  padding: 18px 0;
+  margin-right: 0px;
+  color: #8f8f8f;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+/* line 119, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open nav a:last-child {
+  margin-right: 0px;
+  padding-bottom: 26px;
+}
+/* line 124, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open nav a:hover {
+  color: #b71b1e;
+}
+/* line 130, ../scss/header/_header-mobile.scss */
+.main-header.scroll.open nav a.current {
+  color: #b71b1e;
 }
 
 /* line 3, ../scss/pages/_terms-conditions.scss */

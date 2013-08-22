@@ -1,48 +1,145 @@
 
 .main-header.open {
-	top: 390px;
+	top: 280px;
 	background: $red;
 	overflow: visible;
+	border: 0px;
 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+	@include transition(top 0.3s);
 
-	// logo wrap
-	a.logo-wrap {
-
-		.logo {
-			fill: $white;
-		}
-	}
-	
-	// navicon
 	a.menu-icon {
+		padding-top: 23px;
 	
 		.navicon {
 			fill: $white;
 			fill-opacity: 1;
 			@include transition(fill-opacity 0s);
 		}
+
+		.icon-size {
+			svg	{
+				width: 23px;
+			}
+		}	
+	} 
+
+	// logo
+	a.logo-wrap {
+		height: 70px;
+		padding-top: 18px;
+
+		.logo {
+			fill: $white;
+			fill-opacity: 1;
+			@include transition(fill-opacity 0s);
+		}
+
+	} // end logo wrap
+
+	// logo sizing
+	.logo-size {
+		
+		svg {
+			width: 100px;
+		}
 	}
 
-	nav {
+	// nav
+	nav	{
 		display: block;
 		position: absolute;
 		padding-top: 0px;
-		top: -300px;
+		top: -280px;
 		text-align: center;
 		background: $white;
-		height: 295px;
+		height: 281px;
 		width: 100%;
-		z-index: 0;
 		opacity: 1;
+
+		a {
+			display: block;
+			padding: 18px 0;
+			margin-right: 0px;
+			color: $dark-grey;
+			font-size: 14px;
+			letter-spacing: 1.5px;
+			@include box-shadow(inset rgba(0,0,0,0.2) 0px 0px 2px);
+			@include transition(color 0.3s);
+
+			&:last-child {
+				margin-right: 0px;
+				padding-bottom: 26px;
+			}
+
+			&:hover {
+				color: $red;
+			}
+
+		}
+
+		a.current {
+			color: $red;
+			text-shadow: $white 0px 1px 0px;
+			background: $grey;
+			@include box-shadow(inset rgba(0,0,0,0.1) 0px 0px 3px 1px);
+		}
+
 	}
 
 } // end header mobile
 
-
-
-
+// scroll fx
 .main-header.scroll.open {
-	top: 390px;
+	top: 280px;
 	background: $red;
 	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+
+	// nav
+	nav	{
+		display: block;
+		position: absolute;
+		padding-top: 0px;
+		top: -280px;
+		text-align: center;
+		background: $white;
+		height: 281px;
+		width: 100%;
+		opacity: 1;
+
+		a {
+			display: block;
+			padding: 18px 0;
+			margin-right: 0px;
+			color: $dark-grey;
+			font-size: 14px;
+			letter-spacing: 1.5px;
+			@include box-shadow(inset rgba(0,0,0,0.2) 0px 0px 2px);
+			@include transition(color 0.3s);
+
+			&:last-child {
+				margin-right: 0px;
+				padding-bottom: 26px;
+			}
+
+			&:hover {
+				color: $red;
+			}
+
+		}
+
+		a.current {
+			color: $red;
+		}
+
+	}
+	
 }
+
+
+
+
+
+
+
+
+

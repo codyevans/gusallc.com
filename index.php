@@ -59,7 +59,7 @@
 
                 <nav class="gpu"> 
                     <a href="#">About</a>
-                    <a href="#">Team</a>
+                    <a href="#" class="current">Team</a>
                     <a href="#">Products</a>
                     <a href="#">Contact</a>
                     <a href="#">Documents</a>
@@ -67,10 +67,14 @@
 
             </div> <!-- /header-inner -->
 
-        </header> 
+        </header>
 
 
         <div class="container">
+
+            <div id="map">
+                <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=21.278176,-157.832682&amp;spn=0.011997,0.01163&amp;t=m&amp;z=16&amp;output=embed"></iframe>
+            </div>
 
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
