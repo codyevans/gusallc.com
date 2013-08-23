@@ -1,15 +1,22 @@
 
 // global variables
-var header = $('.main-header');
+var header = $('.main-header'),
+	intro = $('.intro');
 
 
 // add remove scroll on header
 $(window).scroll(function(){
 	
 	if($(window).scrollTop() <= 20){
+
 	  header.removeClass('scroll');
+	  //intro.removeClass('onScroll');
+
 	}else{
+
 	  header.addClass('scroll');
+	  //intro.addClass('onScroll');
+
 	}
 
 });
@@ -48,5 +55,11 @@ function mobileNav() {
 
 // run function
 mobileNav();
+
+
+
+
+
+
 
 

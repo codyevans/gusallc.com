@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-	background: #EEEEEE;
+	background: $body;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 	height: 100%;
@@ -33,13 +33,39 @@ p {
 	margin-bottom: 10px;
 }
 
-/* === Page Defaults ======================================= */
+
+/* === Page Containers ======================================= */
 
 .container {
-	margin: 0 auto;
-	max-width: 1000px;
-	padding-top: 180px;
-	padding-left: 30px;
-	padding-right: 29px;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 400px;
+	z-index: 55;
+
+	@include breakpoint(sml) {
+		padding-top: 30px;
+	}
 }
+
+.content-container {
+	background: $body;
+	padding-bottom: 130px;
+	@include box-shadow(rgba(0,0,0,0.3) 1px 0 5px 1px);
+}
+
+.site-width {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
 

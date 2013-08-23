@@ -2,7 +2,8 @@
 	width: 100%;
 	position: fixed;
 	border-top: $red 0px solid;
-	background: rgba(255,255,255,0);
+	//background: rgba(255,255,255,0);
+	background: $body;
 	overflow: hidden;
 	z-index: 100;
 	@include box-shadow(rgba(0,0,0,0.1) 1px 0 0px 1px);

@@ -1,0 +1,21 @@
+
+// stick footer to the bottom
+.footer-reveal {
+	position: fixed;
+	width: 100%;
+	height: 420px;
+	bottom: 0;
+	z-index: 0;
+}
+
+footer h2 {
+	padding-top: 120px;
+}
+
+
+// background styling for footer
+.gusa-footer {
+	text-align: center;
+	background: $red url(../img/background/wood.jpg);
+	color: $white;
+}
