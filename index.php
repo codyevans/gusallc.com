@@ -124,20 +124,17 @@
                         </p>
                     </div>
                 </section>
-                
-                <section>
-                    <div class="site-width">
-                        <p>meta info - @something</p>
-                    </div>
-                </section>
-
+            
             </div>
         </div> <!-- /container -->
 
         <div class="footer-reveal gusa-footer">
             <footer>
-                <h2>Garnet USA</h2>
-                <p>Copyright ©2013 - Garnet USA</p>
+                <div>
+                    <h2>Garnet USA</h2>
+                    <p>2200 MT Hwy 287 | Alder, Montana 59710</p>
+                    <p class="copyright">© Copyright <?php echo date('Y'); ?> Garnet USA, LLC - All Rights Reserved</p>
+                </div>
             </footer>
         </div> <!-- /footer -->
 
