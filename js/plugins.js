@@ -425,6 +425,8 @@
 
 })(document);
 
+// END MOBILE BOILERPLATE JS.
+
 // Place any jQuery plugins here.
 
 

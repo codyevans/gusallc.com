@@ -6,7 +6,16 @@
                 <section>
                     <div class="intro">
                         <div class="site-width">
-                            <h1>We are Garnet USA</h1>
+                            <div class="intro-slider">
+                                <ul class="slides">
+                                    <li>
+                                        <h1>We are Garnet USA</h1>
+                                    </li>
+                                    <li>
+                                        <h1>We Reside in the Ruby Valley</h1>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
