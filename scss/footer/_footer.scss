@@ -1,11 +1,15 @@
 
 // stick footer to the bottom
 .footer-reveal {
-	position: static;
+	position: fixed;
 	width: 100%;
-	height: 350px;
+	height: 300px;
 	bottom: 0;
 	z-index: 0;
+
+	@include breakpoint(sml) {
+		position: static;
+	}
 }
 
 // background styling for footer
@@ -17,10 +21,67 @@
 
 .footer-wrap {
 	margin: 0 auto;
-	padding: 10px;
-	background: $off-white;
-	width: 75%;
-	bottom: 0;
-	@include box-shadow(rgba(0,0,0,0.2) 0 0 10px);
+	padding-bottom: 35px;
+	background: url(../img/background/footer-background.png) repeat-x bottom;
+	width: 90%;
+	max-width: 600px;
+	@include box-shadow(rgba(0,0,0,0.5) 0 0 10px);
+
+	.footer-content {
+		background: url(../img/background/right-stripe.png) no-repeat right center, 
+					url(../img/background/left-stripe.png) no-repeat left center, $off-white;		   
+		padding-bottom: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 25px;
+
+		@media(max-width: 530px) {
+			background: $off-white;		 
+		}
+
+		h2 {
+			background: transparent url(../img/background/footer-logo.png) no-repeat 0 0;
+			width: 314px;
+			height: 36px;
+			//background-size: contain;
+			text-indent: -99999px;
+			margin-left: auto;
+			margin-right: auto;
+
+			@media(max-width: 413px) {
+				width: 100%;
+				background-size: contain;
+			}
+		} // end h2
+
+		hr	{
+			max-width: 400px;
+			margin: 0 auto 20px auto;
+		}
+
+		p {
+			color: #818181;
+
+			@media(max-width: 413px) {
+				font-size: 12px;
+			}
+
+			@media(max-width: 329px) {
+				font-size: 11px;
+			}
+		}
+
+		.copyright {
+			font-size: 14px;
+
+			@media(max-width: 477px) {
+				font-size: 13px;
+			}
+
+			@media(max-width: 413px) {
+				font-size: 11px;
+			}
+		}
+	}
 }
 

@@ -1,9 +1,12 @@
         <div class="footer-reveal gusa-footer">
             <footer>
                 <div class="footer-wrap">
-                    <h2>Garnet USA</h2>
-                    <p>2200 MT Hwy 287 | Alder, Montana 59710</p>
-                    <p class="copyright">© Copyright <?php echo date('Y'); ?> Garnet USA, LLC - All Rights Reserved</p>
+                    <div class="footer-content">
+                        <h2>Garnet USA</h2>
+                        <hr>
+                        <p>2200 MT Hwy 287 | Alder, Montana 59710</p>
+                        <p class="copyright">© Copyright <?php echo date('Y'); ?> Garnet USA, LLC - All Rights Reserved</p>
+                    </div>
                 </div>
             </footer>
         </div> <!-- /footer -->

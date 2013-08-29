@@ -39,11 +39,12 @@ p {
 .container {
 	position: relative;
 	padding-top: 80px;
-	//padding-bottom: 349px;
+	padding-bottom: 280px;
 	z-index: 55;
 
 	@include breakpoint(sml) {
 		padding-top: 30px;
+		padding-bottom: 0px;
 	}
 }
 

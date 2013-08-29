@@ -56,7 +56,7 @@
 
                 <nav class="gpu"> 
                     <a href="#">About</a>
-                    <a href="#" class="current">Team</a>
+                    <a href="#">Team</a>
                     <a href="#">Products</a>
                     <a href="#">Contact</a>
                     <a href="#">Documents</a>

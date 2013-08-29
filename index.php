@@ -6,13 +6,16 @@
                 <section>
                     <div class="intro">
                         <div class="site-width">
-                            <div class="intro-slider">
-                                <ul class="slides">
+                            <div id="intro-slider">
+                                <ul class="bjqs">
                                     <li>
                                         <h1>We are Garnet USA</h1>
                                     </li>
                                     <li>
-                                        <h1>We Reside in the Ruby Valley</h1>
+                                        <h1>Producing quality Garnet</h1>
+                                    </li>
+                                    <li>
+                                        <h1>In the Ruby Valley</h1>
                                     </li>
                                 </ul>
                             </div>

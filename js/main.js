@@ -57,6 +57,15 @@ function mobileNav() {
 mobileNav();
 
 
+// basic slider - homepage
+ $('#intro-slider').bjqs({
+ 	'width' : 1000,
+ 	'height' : 300,
+    'responsive' : true,
+    'showcontrols' : false,
+    'showmarkers' : false
+});
+
 
 
 
