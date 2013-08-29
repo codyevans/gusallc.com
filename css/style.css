@@ -1142,7 +1142,18 @@ p {
 .gusa-footer {
   text-align: center;
   background: #b71b1e url(../img/background/wood.jpg);
-  color: white;
+}
+
+/* line 18, ../scss/footer/_footer.scss */
+.footer-wrap {
+  margin: 0 auto;
+  padding: 10px;
+  background: #fafafa;
+  width: 75%;
+  bottom: 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
 }
 
 /* line 3, ../scss/pages/_terms-conditions.scss */

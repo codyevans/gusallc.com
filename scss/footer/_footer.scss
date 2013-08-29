@@ -12,6 +12,15 @@
 .gusa-footer {
 	text-align: center;
 	background: $red url(../img/background/wood.jpg);
-	color: $white;
+	//color: $dark-grey;
+}
+
+.footer-wrap {
+	margin: 0 auto;
+	padding: 10px;
+	background: $off-white;
+	width: 75%;
+	bottom: 0;
+	@include box-shadow(rgba(0,0,0,0.2) 0 0 10px);
 }
 
