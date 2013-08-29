@@ -702,8 +702,19 @@ p {
 /* line 56, ../scss/_globals.scss */
 .site-width {
   max-width: 1000px;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
+  padding: 0 32px;
+  -webkit-transition: padding 0.3s;
+  -moz-transition: padding 0.3s;
+  -o-transition: padding 0.3s;
+  transition: padding 0.3s;
+}
+@media (max-width: 1107px) {
+  /* line 56, ../scss/_globals.scss */
+  .site-width {
+    padding: 0 20px;
+  }
 }
 
 /* line 1, ../scss/header/_header.scss */
@@ -966,11 +977,11 @@ p {
   -o-transition: top 0.3s;
   transition: top 0.3s;
 }
-/* line 10, ../scss/header/_header-mobile.scss */
+/* line 11, ../scss/header/_header-mobile.scss */
 .main-header.open a.menu-icon {
   padding-top: 23px;
 }
-/* line 13, ../scss/header/_header-mobile.scss */
+/* line 14, ../scss/header/_header-mobile.scss */
 .main-header.open a.menu-icon .navicon {
   fill: white;
   fill-opacity: 1;
@@ -979,16 +990,16 @@ p {
   -o-transition: fill-opacity 0s;
   transition: fill-opacity 0s;
 }
-/* line 20, ../scss/header/_header-mobile.scss */
+/* line 21, ../scss/header/_header-mobile.scss */
 .main-header.open a.menu-icon .icon-size svg {
   width: 23px;
 }
-/* line 27, ../scss/header/_header-mobile.scss */
+/* line 28, ../scss/header/_header-mobile.scss */
 .main-header.open a.logo-wrap {
   height: 70px;
   padding-top: 18px;
 }
-/* line 31, ../scss/header/_header-mobile.scss */
+/* line 32, ../scss/header/_header-mobile.scss */
 .main-header.open a.logo-wrap .logo {
   fill: white;
   fill-opacity: 1;
@@ -997,11 +1008,11 @@ p {
   -o-transition: fill-opacity 0s;
   transition: fill-opacity 0s;
 }
-/* line 42, ../scss/header/_header-mobile.scss */
+/* line 43, ../scss/header/_header-mobile.scss */
 .main-header.open .logo-size svg {
   width: 100px;
 }
-/* line 48, ../scss/header/_header-mobile.scss */
+/* line 49, ../scss/header/_header-mobile.scss */
 .main-header.open nav {
   display: block;
   position: absolute;
@@ -1013,7 +1024,7 @@ p {
   width: 100%;
   opacity: 1;
 }
-/* line 59, ../scss/header/_header-mobile.scss */
+/* line 60, ../scss/header/_header-mobile.scss */
 .main-header.open nav a {
   display: block;
   padding: 18px 0;
@@ -1029,16 +1040,16 @@ p {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 69, ../scss/header/_header-mobile.scss */
+/* line 70, ../scss/header/_header-mobile.scss */
 .main-header.open nav a:last-child {
   margin-right: 0px;
   padding-bottom: 26px;
 }
-/* line 74, ../scss/header/_header-mobile.scss */
+/* line 75, ../scss/header/_header-mobile.scss */
 .main-header.open nav a:hover {
   color: #b71b1e;
 }
-/* line 80, ../scss/header/_header-mobile.scss */
+/* line 81, ../scss/header/_header-mobile.scss */
 .main-header.open nav a.current {
   color: #b71b1e;
   text-shadow: white 0px 1px 0px;
@@ -1048,7 +1059,7 @@ p {
   box-shadow: inset rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
 }
 
-/* line 92, ../scss/header/_header-mobile.scss */
+/* line 93, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open {
   top: 280px;
   background: #b71b1e;
@@ -1056,7 +1067,7 @@ p {
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 0 5px 1px;
 }
-/* line 98, ../scss/header/_header-mobile.scss */
+/* line 99, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open nav {
   display: block;
   position: absolute;
@@ -1068,7 +1079,7 @@ p {
   width: 100%;
   opacity: 1;
 }
-/* line 109, ../scss/header/_header-mobile.scss */
+/* line 110, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open nav a {
   display: block;
   padding: 18px 0;
@@ -1084,16 +1095,16 @@ p {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 119, ../scss/header/_header-mobile.scss */
+/* line 120, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open nav a:last-child {
   margin-right: 0px;
   padding-bottom: 26px;
 }
-/* line 124, ../scss/header/_header-mobile.scss */
+/* line 125, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open nav a:hover {
   color: #b71b1e;
 }
-/* line 130, ../scss/header/_header-mobile.scss */
+/* line 131, ../scss/header/_header-mobile.scss */
 .main-header.scroll.open nav a.current {
   color: #b71b1e;
 }

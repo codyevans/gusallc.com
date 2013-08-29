@@ -19,7 +19,7 @@ $body: #EEEEEE;
     @media (max-width: 1600px) { @content; }
   }
   @else if $point == lrg {
-    @media (max-width: 1000px) { @content; }
+    @media (max-width: 1107px) { @content; }
   }
   @else if $point == med {
     @media (max-width: 959px) { @content; }

@@ -55,15 +55,15 @@ p {
 
 .site-width {
 	max-width: 1000px;
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
+	padding: 0 32px;
+	@include transition(padding 0.3s);
+
+	@include breakpoint(lrg) {
+		padding: 0 20px;
+	}
 }
-
-
-
-
-
-
 
 
 
