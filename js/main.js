@@ -67,6 +67,11 @@ mobileNav();
 });
 
 
+ // smooth scroll
+ $('a#top').smoothScroll();
+ $('a#scroll-to-content').smoothScroll({offset: -120});
+
+
 
 
 

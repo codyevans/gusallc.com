@@ -13,7 +13,7 @@
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300' rel='stylesheet' type='text/css'>
     </head>
-    <body>
+    <body id="top">
         <header class="main-header gpu">
 
             <div class="header-inner">

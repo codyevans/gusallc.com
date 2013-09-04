@@ -33,6 +33,97 @@ $body: #EEEEEE;
 }
 
 
+// down btn
+.down-btn {
+  position: relative;
+  margin: -30px auto 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: $white;
+  border: 15px solid $body;
+
+  @include transition(background 0.3s);
+
+  .down-arrow {
+    position: absolute;
+    top: 21px;
+    left: 15.75px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid $red;
+
+    @include transition(border-top 0.3s);
+  }
+
+  &:hover {
+    background: $red;
+    
+    .down-arrow {
+        border-top: 10px solid $white;
+    }
+
+  }
+
+}
+
+// top btn
+a#top {
+    text-decoration: none;
+}
+
+.up-btn {
+  position: relative;
+  margin: 90px auto 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: $body;
+  @include box-shadow(rgba(0,0,0,0.2) 0 0 5px inset);
+
+  .up-arrow {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $dark-grey;
+    opacity: 0.3;
+    @include transition(opacity 0.3s);
+
+  }
+
+  &:hover {
+    .up-arrow {
+        opacity: 0.8;
+    }
+  }
+
+  &:after {
+    content: "back to top";
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    width: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: $dark-grey;
+    opacity: 0;
+    @include transition(opacity 0.3s);
+  }
+
+   &:hover:after {
+    opacity: 0.8;
+  }
+
+}
+
+
 // hardware acceleration
 .gpu {
 -webkit-transform:translateZ(0);
@@ -40,4 +131,16 @@ $body: #EEEEEE;
      -o-transform:translateZ(0);
         transform:translateZ(0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -23,7 +23,17 @@
                     </div>
                 </section>
 
-                <section>
+                <a id="scroll-to-content" href="#main-content">
+                    <div class="down-btn">
+                        <div class="down-arrow"></div>
+                    </div>
+                </a>
+
+                <section id="hero-image">
+                    <div class="hero-contain"></div>
+                </section>
+
+                <section id="main-content">
                     <div class="site-width">
                         <h3>Hello World</h3>
                         <p>
@@ -66,6 +76,12 @@
                         </p>
                     </div>
                 </section>
+
+                <a id="top" href="#top">
+                    <div class="up-btn">
+                        <div class="up-arrow"></div>
+                    </div>
+                </a>
             
             </div>
         </div> <!-- /container -->

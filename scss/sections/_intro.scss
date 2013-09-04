@@ -1,4 +1,4 @@
-
+// intro 
 .intro {
 	width: 100%;
 	height: 220px;
@@ -25,4 +25,13 @@
 // intro slider settings
 #intro-slider {
 	margin: 0 auto;
+}
+
+
+// hero image
+.hero-contain {
+    margin: -30px 0 0 0;
+    width: 100%;
+    height: 300px;
+    background: $red;
 }
