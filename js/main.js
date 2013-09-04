@@ -67,9 +67,9 @@ mobileNav();
 });
 
 
- // smooth scroll
+ // smooth scroll - back to top
  $('a#top').smoothScroll();
- $('a#scroll-to-content').smoothScroll({offset: -120});
+ $('a#scroll-to-content').smoothScroll({offset: -74});
 
 
 

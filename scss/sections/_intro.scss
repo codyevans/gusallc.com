@@ -1,3 +1,4 @@
+
 // intro 
 .intro {
 	width: 100%;
@@ -6,6 +7,10 @@
 	margin: 0 auto;
 	background: $off-white;
 	@include transition(background 0.3s 0.5s);
+
+    @media (max-width: 469px) {
+        height: 260px;
+    }
 
 	h1 {
 		font-family: 'open sans', sans-serif;
@@ -30,8 +35,72 @@
 
 // hero image
 .hero-contain {
+	position: relative;
     margin: -30px 0 0 0;
     width: 100%;
-    height: 300px;
-    background: $red;
+    max-height: 400px;
+    background: orange;
+    overflow: hidden;
+    z-index: 0;
+
+    @media (max-width: 599px) {
+          display: none;
+    }
+
+    img {
+    	min-width: 600px;
+    	width: 100%;
+    	height: auto;
+
+         @media (min-width: 1200px) {
+            //padding-bottom: 100px;
+        }
+    }
+
+    #aerial-one {
+    	margin: -150px 0 0 0;
+    }
+
+    .hero-hover {
+    	position: absolute;
+    	text-align: center;
+    	bottom: 0;
+    	width: 100%;
+    	background: $red;
+    	max-height: 400px;
+    	z-index: 50;
+    	@include opacity(0);
+    	@include box-shadow(rgba(0,0,0,0.7) 0 1px 5px);
+    	@include transform(translate(0, 500px));
+    	@include transition(opacity 0.3s, transform 0.8s);
+
+    	h2 {
+	    	font-family: 'open sans', sans-serif;
+			font-weight: 300;
+			font-size: 16px;
+			//color: #606060;
+			color: $white;
+			letter-spacing: 2px;
+    	}
+	}
+
+    &:hover {
+
+    	 .hero-hover {
+    	 	@include transform(translate(0, 0px));
+	    	@include opacity(0.9);
+	    	@include transition(opacity 0.3s, transform 0.3s 0.5s);
+    	}
+
+    }
+
 }
+
+
+
+
+
+
+
+
+

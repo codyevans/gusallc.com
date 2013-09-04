@@ -30,59 +30,139 @@
                 </a>
 
                 <section id="hero-image">
-                    <div class="hero-contain"></div>
+                    <div class="hero-contain">
+                        <img id="aerial-one" src="img/aerial-one.jpg">
+                        <div class="hero-hover">
+                            <h2>GUSA Property Aerial</h2>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="main-content">
                     <div class="site-width">
-                        <h3>Hello World</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <span>Garnet USA</span>, located in the Ruby Valley, produces several thousand 
+                            tons of industrial quality garnet per year for the waterjet cutting 
+                            and sand blasting markets in North America. GUSA has perfected 
+                            an advanced mining and processing operation to strategically meet the 
+                            growing global demand for quality garnet abrasives. We are
+                            currently mining a hard rock deposit in the Alder Gulch area referred 
+                            to as "section 25." Section 25 has historically produced several thousand 
+                            tons of garnet and initial exploration shows promising results for the future.
                         </p>
                     </div>
                 </section>
+
+                <div class="site-width">
+                    <div class="divider">
+                        <h3>Garnet Mining Process</h3>
+                    </div>
+                </div>
 
                  <section>
                     <div class="site-width">
-                        <h3>Hello again</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                       <div class="grid">
+                            <div class="three-col">
+                                <div class="module">
+                                    <h2>Extraction</h2>
+                                    <hr>
+                                    <p>
+                                        Garnets are often mined in open-pit mines. 
+                                        In an open-pit mine the soil and mineral deposits 
+                                        are removed using dump trucks with large bucket 
+                                        shovels. Open-pit mines are often used to retrieve 
+                                        shallow deposits of garnet. After the dirt over the 
+                                        mineral deposits is removed roads are built down the 
+                                        sides of the pit so that trucks can get to the bottom 
+                                        where they are filled with deposits containing garnets 
+                                        which are then taken to a processing facility.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="three-col">
+                                <div class="module">
+                                    <h2>Crushing</h2>
+                                    <hr>
+                                    <p>
+                                        Garnet is put through a series of crushers resulting in 
+                                        6mm – 40mm pieces of garnet. Particles are put through a 
+                                        vibrator to separate out larger pieces of garnet. Extra-large 
+                                        pieces of garnet are then put back through the crushers until 
+                                        they are a proper size.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="three-col">
+                                <div class="module">
+                                    <h2>Grinding</h2>
+                                    <hr>
+                                    <p>
+                                        Once garnet has been crushed it is put into a grinding mill 
+                                        via the vibrating feeder. In the grinding mill garnet particles 
+                                        are smashed into powder which is the form used in blasting and 
+                                        water jet cutting.
+                                    </p>
+                                </div>
+                            </div>
+                       </div>
                     </div>
                 </section>
 
-                <a id="top" href="#top">
-                    <div class="up-btn">
-                        <div class="up-arrow"></div>
+                <div class="site-width">
+                    <div class="divider">
+                        <h3>Garnet in the Rough</h3>
                     </div>
-                </a>
-            
+                </div>
+
+                <section>
+                    <div class="site-width">
+                        <div class="grid">
+                             <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough1.jpg' />
+                                </div>
+                            </div>
+                           
+                           <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough2.jpg' />
+                                </div>
+                            </div>
+                            
+                            <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough3.jpg' />
+                                </div>
+                            </div>
+                           
+                            <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough4.jpg' />
+                                </div>
+                            </div>
+                          
+                            <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough5.jpg' />
+                                </div>
+                            </div>
+                          
+                            <div class="image-col">
+                                <div class='image-module'>
+                                    <img alt='Garnet in the Rough' src='img/rough/rough6.jpg' />
+                                </div>
+                            </div>
+       
+                        </div>
+                    </div>
+                </section>
+
+                <div class="up-btn">
+                    <a id="top" href="#top">
+                        <div class="up-arrow"></div>
+                    </a>
+                </div>
+               
             </div>
         </div> <!-- /container -->
 

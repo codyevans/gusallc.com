@@ -1,0 +1,25 @@
+
+// main intro content
+#main-content {
+	padding-top: 45px;
+	color: $red;
+	font-size: 21px;
+	line-height: 40px;
+
+	@media (min-width: 820px) {
+		padding-top: 55px;
+	}
+
+	@media (max-width: 767px) {
+		font-size: 19px;
+		line-height: 36px;
+	}
+
+	span {
+		font-weight: 700;
+	}
+}
+
+
+
+

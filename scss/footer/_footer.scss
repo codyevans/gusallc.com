@@ -52,6 +52,10 @@
 				width: 100%;
 				background-size: contain;
 			}
+
+			@media(max-width: 381px) {
+				margin-bottom: 1.5%;
+			}
 		} // end h2
 
 		hr	{
