@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
-        <title>Garnet USA</title>
+        <title>Garnet USA | <?php echo($title); ?></title>
 
         <meta name="description" content="Garnet Mine Located in Alder, Montana">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300' rel='stylesheet' type='text/css'>
     </head>
@@ -18,7 +18,7 @@
 
             <div class="header-inner">
 
-                <a href="/" class="logo-wrap gpu">
+                <a href="/welcome/" class="logo-wrap gpu">
                     <div class="logo-size gpu">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="139.25px" height="32px" viewBox="0 0 139.25 32" enable-background="new 0 0 139.25 32" xml:space="preserve">
@@ -55,10 +55,10 @@
                 </a>
 
                 <nav class="gpu"> 
-                    <a href="#">About</a>
-                    <a href="#">Team</a>
+                    <a href="/about-us/">About</a>
+                    <a href="/our-team/">Team</a>
                     <a href="#">Products</a>
-                    <a href="#">Contact</a>
+                    <a href="/contact-us/">Contact</a>
                     <a href="#">Documents</a>
                 </nav>
 

@@ -1,6 +1,6 @@
 
 // main intro content
-#main-content {
+.main-content {
 	padding-top: 45px;
 	color: $red;
 	font-size: 21px;
@@ -21,5 +21,44 @@
 }
 
 
+// team
+.team-section {
+	padding-top: 45px;
+
+	@media (min-width: 820px) {
+		padding-top: 55px;
+	}
+}
+
+.team {
+	
+	.header {
+
+		img	{
+			float: left;
+			margin: 0 20px 0 0;
+		}
+
+		h2 {
+			text-align: left;
+			text-transform: none;
+			padding: 11px 0 0 0;
+		}
+
+		p.title {
+			text-transform: uppercase;
+			color: $red;
+			margin: 0px 0 0 88px;
+			line-height: 20px;
+		}
+
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}	
+
+}
 
 

@@ -83,7 +83,7 @@ a#top {
   height: 50px;
   border-radius: 50%;
   background: $body;
-  @include box-shadow(rgba(0,0,0,0.2) 0 0 5px inset);
+  @include box-shadow(rgba(0,0,0,0.4) 0 0 5px inset);
 
   .up-arrow {
     position: absolute;
@@ -94,14 +94,14 @@ a#top {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid $dark-grey;
-    @include opacity(0.3);
+    @include opacity(0.4);
     @include transition(opacity 0.3s);
 
   }
 
   &:hover {
     .up-arrow {
-        opacity: 0.6;
+        @include opacity(0.7);
     }
   }
 
@@ -175,7 +175,6 @@ a#top {
   background: $off-white;
   border-top: 6px solid $red;
   padding: 23px;
-  //margin-right: 20px;
   padding-bottom: 25px;
   @include box-shadow(rgba(0,0,0,0.1) 0 0 3px 1px);
 
@@ -200,13 +199,8 @@ a#top {
 .image-module {
   width: 100%;
   background: $off-white;
-  padding: 16px;
-  //margin-right: 20px;
+  padding: 10px;
   @include box-shadow(rgba(0,0,0,0.1) 0 0 3px 1px);
-
-  @media(max-width: 907px) {
-  
-  }
 
  img {
   width: 100%;
