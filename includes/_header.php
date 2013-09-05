@@ -15,7 +15,6 @@
     </head>
     <body id="top">
         <header class="main-header gpu">
-
             <div class="header-inner">
 
                 <a href="/welcome/" class="logo-wrap gpu">
@@ -57,9 +56,9 @@
                 <nav class="gpu"> 
                     <a href="/about-us/">About</a>
                     <a href="/our-team/">Team</a>
-                    <a href="#">Products</a>
+                    <a href="/products/">Products</a>
                     <a href="/contact-us/">Contact</a>
-                    <a href="#">Documents</a>
+                    <a class="coming-soon" href="#">Documents</a>
                 </nav>
 
             </div> <!-- /header-inner -->

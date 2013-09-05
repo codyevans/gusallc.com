@@ -18,11 +18,12 @@
 @import "sections/section";
 @import "sections/intro";
 
-// footer
-@import "footer/footer";
-
 // page specific styles
 @import	"pages/terms-conditions";
+@import	"contact/contact";
+
+// footer
+@import "footer/footer";
 
 // print
 @import "print";

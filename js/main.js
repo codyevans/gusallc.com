@@ -1,4 +1,11 @@
 
+// Documents alert - coming soon
+$('a.coming-soon').click(function(e) {
+	alert("GUSA's Documents list is coming soon.");
+	e.preventDefault();
+});
+
+
 // global variables
 var header = $('.main-header'),
 	intro = $('.intro');
@@ -70,9 +77,6 @@ mobileNav();
  // smooth scroll - back to top
  $('a#top').smoothScroll();
  $('a#scroll-to-content').smoothScroll({offset: -74});
-
-
-
 
 
 

@@ -43,7 +43,7 @@
                     <div class="site-width">
                         <p>
                             <span>Garnet USA</span>, located in the Ruby Valley, produces several thousand 
-                            tons of industrial quality garnet per year for the waterjet cutting 
+                            tons of industrial quality garnet per year for the water-jet cutting 
                             and sand blasting markets in North America. GUSA has perfected 
                             an advanced mining and processing operation to strategically meet the 
                             growing global demand for quality garnet abrasives. We are
@@ -53,6 +53,12 @@
                         </p>
                     </div>
                 </section>
+
+                 <div class="site-width">
+                    <div class="image-module">
+                        <img src="../img/gusa-machinery.jpg" alt="view of the GUSA Area.">
+                    </div>
+                </div>
 
                 <div class="site-width">
                     <div class="divider">
@@ -71,12 +77,11 @@
                                         Garnets are often mined in open-pit mines. 
                                         In an open-pit mine the soil and mineral deposits 
                                         are removed using dump trucks with large bucket 
-                                        shovels. Open-pit mines are often used to retrieve 
-                                        shallow deposits of garnet. After the dirt over the 
-                                        mineral deposits is removed roads are built down the 
-                                        sides of the pit so that trucks can get to the bottom 
-                                        where they are filled with deposits containing garnets 
-                                        which are then taken to a processing facility.
+                                        shovels. These mines allow for the retrieval of shallow
+                                        deposits of garnet. After the dirt over the 
+                                        mineral deposits is removed roads are built to allow access
+                                        to the bottom of the pit. Finally, trucks are filled with garnet 
+                                        deposits and taken to a processing facility.
                                     </p>
                                 </div>
                             </div>

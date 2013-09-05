@@ -5,6 +5,7 @@
 	color: $red;
 	font-size: 21px;
 	line-height: 40px;
+	margin-bottom: 50px;
 
 	@media (min-width: 820px) {
 		padding-top: 55px;
@@ -31,7 +32,7 @@
 }
 
 .team {
-	
+
 	.header {
 
 		img	{
@@ -58,7 +59,193 @@
 			clear: both;
 		}
 	}	
+}
+
+// specific sizes per two bios - team page
+.will {
+	height: 730px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 592px;
+	}
+}
+
+.casey {
+	height: 730px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 592px;
+	}
+}
+
+.dan {
+	height: 680px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 557px;
+	}
+}
+
+.mack {
+	height: 840px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 670px;
+	}
+}
+
+.jason {
+	height: 840px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 670px;
+	}
+}
+
+.kristina {
+	height: 702px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 595px;
+	}
+}
+
+.dan {
+	height: 702px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 595px;
+	}
+}
+
+.linda {
+	height: 702px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 595px;
+	}
+}
+
+.christi {
+	height: 702px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 595px;
+	}
+}
+
+.rachel {
+	// height: 702px;
+
+	// @media (max-width: 820px) {
+	// 	height: auto;
+	// }
+
+	// @media (min-width: 1110px) {
+	// 	height: 595px;
+	// }
+}
+
+.team-photos {
+	margin-top: 20px;
+}
+
+
+// contact section
+.contact-section {
+	padding-top: 10px;
+
+	@media (min-width: 820px) {
+		padding-top: 15px;
+	}
+}
+
+.address {
+	height: 325px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 325px;
+	}
+
+	h4 {
+		margin: 0 0 0 0;
+	}
 
 }
+
+
+// about us
+.history {
+	height: 860px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 700px;
+	}
+}
+
+.property {
+	height: 860px;
+
+	@media (max-width: 820px) {
+		height: auto;
+	}
+
+	@media (min-width: 1110px) {
+		height: 700px;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 

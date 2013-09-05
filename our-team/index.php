@@ -20,20 +20,11 @@
                     </div>
                 </a>
 
-               <!--  <section id="hero-image">
-                    <div class="hero-contain">
-                        <img id="aerial-one" src="img/aerial-one.jpg">
-                        <div class="hero-hover">
-                            <h2>GUSA Property Aerial</h2>
-                        </div>
-                    </div>
-                </section> -->
-
                 <section id="main-content" class="team-section">
                     <div class="site-width">
                         <div class="grid">
                             <div class="two-col">
-                                <div class="module team">
+                                <div class="module team will">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
                                         <h2>Will Caldwell</h2>
@@ -41,20 +32,22 @@
                                     </div>
                                     <hr>
                                     <p>
-                                        Garnets are often mined in open-pit mines. 
-                                        In an open-pit mine the soil and mineral deposits 
-                                        are removed using dump trucks with large bucket 
-                                        shovels. Open-pit mines are often used to retrieve 
-                                        shallow deposits of garnet. After the dirt over the 
-                                        mineral deposits is removed roads are built down the 
-                                        sides of the pit so that trucks can get to the bottom 
-                                        where they are filled with deposits containing garnets 
-                                        which are then taken to a processing facility.
+                                        As the fifth generation on a family farm in the Appalachian mountains of Western 
+                                        North Carolina we raised cattle, horses, goats, rabbits, waterfowl and chickens.
+                                        I began using heavy equipment on the farm at a young age and also stone masonry since my 
+                                        stepfather was a stonemason and house builder.  Some of my experience is as follows:  welder,
+                                        heavy equipment operator, dump truck driver, log skidder operator, tractor trailer driver, 
+                                        crane operator, various types of welding equipment, machinist equipment, aggregate sorting/separating 
+                                        plant operator. I have extensive experience as a welder and machinist, electrician, and two years of experience as a quarry supervisor.
+                                    </p>
+                                    <p>
+                                        When the quarry was closed I moved to Montana and purchased Alder Market and also worked as a cowboy on a local ranch.  
+                                        Currently, I am general foreman of the Garnet USA mine operations in Alder, MT
                                     </p>
                                 </div>
                             </div>
                              <div class="two-col">
-                                <div class="module team">
+                                <div class="module team casey">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
                                         <h2>Casey Hanson</h2>
@@ -72,8 +65,52 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="two-col">
+                                <div class="module team mack">
+                                    <div class="header">
+                                        <img src="/img/profile.png" alt="profile picture">
+                                        <h2>Mack Duncan</h2>
+                                        <p class="title">Head Geologist</p>
+                                    </div>
+                                    <hr>
+                                    <p>
+                                    Mack Duncan received his B.S. in geology from the University of Georgia and then served
+                                    as an officer in the U.S. Navy.  After the navy he received his Ph.D in structural geology
+                                    from Indiana University.  The focus of his Ph.D was a study of metamorphic rocks in the 
+                                    Highland Mountains of SW Montana.  He then joined Shell Oil company and spent the next 10 
+                                    years exploring for oil and gas in the Rocky Mountains.  After working in the oil business, 
+                                    he moved back to his home state of Georgia where he spent the next 20 years in the industrial 
+                                    minerals business with J.M. Huber Corp.  He began as an exploration geologist and then worked 
+                                    in a spectrum of management positions involving mining, production and productivity.  For the 
+                                    last 5 years Mack has worked as a consulting geologist, primarily in industrial minerals.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="two-col">
+                                <div class="module team jason">
+                                    <div class="header">
+                                        <img src="/img/profile.png" alt="profile picture">
+                                        <h2>Jason Babcock</h2>
+                                        <p class="title">Geologist</p>
+                                    </div>
+                                    <hr>
+                                    <p>
+                                     Mr. Babcock brings over 15 years direct experience as a professional exploration geologist 
+                                     with particular expertise in Project Management and GIS-based field geological mapping.  
+                                     He offers a proven technical background alongside excellent problem-solving capabilities. 
+                                     Since 2011 he served in the capacity of Senior Geologist and Project Manager for Navaho Gold on 
+                                     7 Nevada-based joint venture gold exploration projects. During this period, he aided in generating 
+                                     a number of new exploration projects as well as managing extensive drilling operations including 
+                                     deep diamond drill programs. Prior to this Mr. Babcock worked from 2009 to 2011 for Fronteer Gold, 
+                                     participating in their Nevada-based Long Canyon and Northumberland Projects including various endeavors
+                                      on related Carlin Trend efforts. He is an active member of the Society of Economic Geologists,
+                                       Northwest Mining Association and the Geological Society of Nevada. Mr. Babcock earned both his M.S. 
+                                       Geology (2007) and B.S. Geology (1996) at the University of Utah, Salt Lake City.
+                                    </p>
+                                </div>
+                            </div>
                              <div class="two-col">
-                                <div class="module team">
+                                <div class="module team kristina">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
                                         <h2>Kristina Lueck</h2>
@@ -95,34 +132,24 @@
                                 </div>
                             </div>
                             <div class="two-col">
-                                <div class="module team">
+                                <div class="module team dan">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
-                                        <h2>Tracy Christensen</h2>
+                                        <h2>Dan Hutchings</h2>
                                         <p class="title">MSHA and Safety Administrator</p>
                                     </div>
                                     <hr>
                                     <p>
-                                      I was born in northeast  Montana and graduated from Plentywood High School. 
-                                      My nursing degree was completed in 1985 and I have spent the past 27 years in healthcare  
-                                      as a registered nurse. A majority of my nursing employment has been as a charge nurse with 
-                                      experience in Home Health, Public Health, Infection Control and Employee Health as well as 
-                                      Medical Surgical and Emergency care. I am married with four children, two boys and two girls. 
-                                      The youngest is in Junior High and my oldest is a Medical Resident in Arizona with my middle 
-                                      children both in college. I am blessed with a 2 ½ year old grandson living in Arizona. I am 
-                                      active in my church, Search and Rescue, 4-H leader and various other community affairs 
-                                      including a mission trip to Peru.
-                                    </p>
-                                    <p>
-                                        I began working for Garnet USA in September, 2012 as the MSHA and Safety Administrator. 
-                                        My primary functions are to develop, monitor and implement the organization’s health and 
-                                        safety policy;  to ensure the organization is compliant with health and safety legislation; 
-                                        and to reduce or prevent hazards, dangers and accidents.
+                                     A native born Montanan, Dan Hutchings came on board with Garnet USA on June 6, 2013 as the new Health and Safety Officer. 
+                                     Dan spent 16 years after getting out of the Army in 1974 working in the mining and heavy construction trades. In 1993 he 
+                                     returned to school and earned a degree in Occupational Safety and Health. Since graduating he has worked in safety for 
+                                     nearly 15 years involved in both MSHA and OSHA regulations. Dan and his wife of 26 years are from Townsend, Montana where 
+                                     they own a home.
                                     </p>
                                 </div>
                             </div>
                             <div class="two-col">
-                                <div class="module team">
+                                <div class="module team linda">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
                                         <h2>Linda Dixon</h2>
@@ -146,7 +173,7 @@
                                 </div>
                             </div>
                             <div class="two-col">
-                                <div class="module team">
+                                <div class="module team christi">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
                                         <h2>Christi Lenard</h2>
@@ -167,23 +194,25 @@
                                 </div>
                             </div>
                             <div class="two-col">
-                                <div class="module team">
+                                <div class="module team rachel">
                                     <div class="header">
                                         <img src="/img/profile.png" alt="profile picture">
-                                        <h2>Mack Duncan</h2>
-                                        <p class="title">Geologist</p>
+                                        <h2>Rachel Cheatham </h2>
+                                        <p class="title">Lab Technician</p>
                                     </div>
                                     <hr>
                                     <p>
-                                     Mack Duncan received his B.S. in geology from the University of Georgia and then served
-                                    as an officer in the U.S. Navy.  After the navy he received his Ph.D in structural geology
-                                    from Indiana University.  The focus of his Ph.D was a study of metamorphic rocks in the 
-                                    Highland Mountains of SW Montana.  He then joined Shell Oil company and spent the next 10 
-                                    years exploring for oil and gas in the Rocky Mountains.  After working in the oil business, 
-                                    he moved back to his home state of Georgia where he spent the next 20 years in the industrial 
-                                    minerals business with J.M. Huber Corp.  He began as an exploration geologist and then worked 
-                                    in a spectrum of management positions involving mining, production and productivity.  For the 
-                                    last 5 years Mack has worked as a consulting geologist, primarily in industrial minerals.
+                                    Rachel Cheatham graduated Cum Laude from the University of Georgia with a bachelor’s degree 
+                                    in geology in December 2012. While in college, she was president of the University of Georgia 
+                                    Geology Club. For her senior thesis, Rachel researched Mississippian paleo-communities of the 
+                                    Fort Payne Formation in Tennessee. She has also presented research at Geological Society of 
+                                    America meetings
+                                    </p>
+                                    <p>
+                                    She began working at Garnet USA in early February 2013. She received training for point counting 
+                                    with a petrographic microscope in Denver, CO, and is now using this technique for Garnet USA’s QA/QC. 
+                                    Rachel was also a teaching assistant at the University of Georgia/University of South Carolina field camp 
+                                    in the summer of 2013. 
                                     </p>
                                 </div>
                             </div>
@@ -197,45 +226,32 @@
                     </div>
                 </div>
 
-                <section>
+                <div class="site-width">
+                    <div class="image-module single-image">
+                        <img src="../img/team-work-large.jpg" alt="The GUSA Team.">
+                    </div>
+                </div>
+
+                 <div class="site-width">
+                    <div class="image-module single-image">
+                        <img src="../img/gusa-drill.jpg" alt="The GUSA Team.">
+                    </div>
+                </div>
+
+                <section class="team-photos">
                     <div class="site-width">
                         <div class="grid">
-                             <div class="image-col">
+                             <div class="two-col">
                                 <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough1.jpg' />
+                                   <img src="../img/working-outside.jpg" alt="The GUSA Team.">
                                 </div>
                             </div>
                            
-                           <div class="image-col">
+                           <div class="two-col">
                                 <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough2.jpg' />
+                                   <img src="../img/working-inside.jpg" alt="The GUSA Team.">
                                 </div>
                             </div>
-                            
-                            <div class="image-col">
-                                <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough3.jpg' />
-                                </div>
-                            </div>
-                           
-                            <div class="image-col">
-                                <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough4.jpg' />
-                                </div>
-                            </div>
-                          
-                            <div class="image-col">
-                                <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough5.jpg' />
-                                </div>
-                            </div>
-                          
-                            <div class="image-col">
-                                <div class='image-module'>
-                                    <img alt='Garnet in the Rough' src='img/rough/rough6.jpg' />
-                                </div>
-                            </div>
-       
                         </div>
                     </div>
                 </section>
