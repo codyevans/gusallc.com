@@ -1,4 +1,7 @@
-<?php $title = 'Contact Us'; ?>
+<?php 
+$title = 'Contact Us'; 
+$bodyID = 'contact-us';
+?>
 <?php include('../includes/_header.php'); ?>    
     
         <div class="container">

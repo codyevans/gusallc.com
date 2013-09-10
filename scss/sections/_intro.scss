@@ -47,14 +47,70 @@
           display: none;
     }
 
+    // HERO IMAGES - IN CSS FOR MOBILE REMOVAL
+
+    // hero welcome page
+    .hero-image-welcome {
+        background: url(../img/aerial-one.jpg) no-repeat 0 0;
+        height: 400px;
+        background-size: cover;
+        @include transition(all 0.3s);
+
+        @media (min-width: 960px) {
+            margin-top: -100px;
+            height: 500px;
+        }
+
+        @media (min-width: 1400px) {
+            margin-top: -200px;
+            height: 600px;
+        }
+
+        @media (min-width: 1600px) {
+            margin-top: -300px;
+            height: 700px;
+        }
+
+        @media (min-width: 1800px) {
+             margin-top: -400px;
+             height: 800px;
+        }
+    }
+
+    // hero about page
+    .hero-image-about {
+        background: url(../img/aerial-two.jpg) no-repeat 0 0;
+        height: 400px;
+        background-size: cover;
+        @include transition(all 0.3s);
+
+        @media (min-width: 960px) {
+            margin-top: -100px;
+            height: 500px;
+        }
+
+        @media (min-width: 1400px) {
+            margin-top: -200px;
+            height: 600px;
+        }
+
+        @media (min-width: 1600px) {
+            margin-top: -300px;
+            height: 700px;
+        }
+
+        @media (min-width: 1800px) {
+             margin-top: -400px;
+             height: 800px;
+        }
+    }
+
+    // END HERO IMAGES
+
     img {
     	min-width: 600px;
     	width: 100%;
     	height: auto;
-
-         @media (min-width: 1200px) {
-            //padding-bottom: 100px;
-        }
     }
 
     #aerial-one {

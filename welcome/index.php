@@ -32,7 +32,7 @@
 
                 <section id="hero-image">
                     <div class="hero-contain">
-                        <img id="aerial-one" src="/img/aerial-one.jpg" alt="Aerial Image of the GUSA Property">
+                        <div class="hero-image-welcome"></div>
                         <div class="hero-hover">
                             <h2>GUSA Property Aerial</h2>
                         </div>

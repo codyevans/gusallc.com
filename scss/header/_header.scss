@@ -110,17 +110,35 @@
 
 		}
 
-		// current nav links - controlled by body tags
-		a.current {
-			color: $red;
-		}
-
-
-		
-
 	}
 
 } // end main header
+
+// current nav links - controlled by body tags
+		
+#about-us {
+	a.about {
+		color: $red;
+	}
+}
+
+#our-team {
+	a.team {
+		color: $red;
+	}
+}
+
+#our-products {
+	a.products {
+		color: $red;
+	}
+}
+
+#contact-us {
+	a.contact {
+		color: $red;
+	}
+}
 
 
 // scroll-fx

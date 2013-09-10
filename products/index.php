@@ -1,4 +1,7 @@
-<?php $title = 'Our Products'; ?>
+<?php 
+$title = 'Our Products'; 
+$bodyID = 'our-products';
+?>
 <?php include('../includes/_header.php'); ?>    
     
         <div class="container">

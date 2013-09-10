@@ -13,7 +13,8 @@
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300' rel='stylesheet' type='text/css'>
     </head>
-    <body id="top">
+    <body id="<?php echo($bodyID); ?>">
+        <div id="top"></div>
         <header class="main-header gpu">
             <div class="header-inner">
 
@@ -54,10 +55,10 @@
                 </a>
 
                 <nav class="gpu"> 
-                    <a href="/about-us/">About</a>
-                    <a href="/our-team/">Team</a>
-                    <a href="/products/">Products</a>
-                    <a href="/contact-us/">Contact</a>
+                    <a class="about" href="/about-us/">About</a>
+                    <a class="team" href="/our-team/">Team</a>
+                    <a class="products" href="/products/">Products</a>
+                    <a class="contact" href="/contact-us/">Contact</a>
                     <a class="coming-soon" href="#">Documents</a>
                 </nav>
 

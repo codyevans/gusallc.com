@@ -1,4 +1,7 @@
-<?php $title = 'About Us'; ?>
+<?php 
+$title = 'About Us'; 
+$bodyID = 'about-us';
+?>
 <?php include('../includes/_header.php'); ?>    
     
         <div class="container">
@@ -7,7 +10,7 @@
                 <section>
                     <div class="intro">
                         <div class="site-width">
-                            <h1>Something about GUSA</h1>
+                            <h1>An Insight into GUSA</h1>
                         </div>
                     </div>
                 </section>
@@ -20,7 +23,7 @@
 
                 <section id="hero-image">
                     <div class="hero-contain">
-                        <img id="aerial-one" src="/img/aerial-two.jpg" alt="Aerial Image of the GUSA Property">
+                        <div class="hero-image-about"></div>
                         <div class="hero-hover">
                             <h2>GUSA Property Aerial</h2>
                         </div>

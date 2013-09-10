@@ -1,4 +1,7 @@
-<?php $title = 'Our Team'; ?>
+<?php 
+$title = 'Our Team'; 
+$bodyID = 'our-team';
+?>
 <?php include('../includes/_header.php'); ?>    
     
         <div class="container">
